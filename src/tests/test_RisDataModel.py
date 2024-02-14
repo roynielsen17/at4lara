@@ -2,6 +2,7 @@
 """
 Test for basic functionality of the RisDataModel
 """
+import re
 import os
 import sys
 import unittest
@@ -39,9 +40,13 @@ class test_RisDataModel(unittest.TestCase):
         """
         make sure there are no more getters than there are in the tag list
         """
-        for item in dir(self.rdm) 
-        keylen = self.rTa.keys().len()
-        self.assertTrue(mods == keylen, "getters don't equal the number of tags...")
+        i = 0
+        for item in dir(self.rdm):
+            if re.match("^get", item):
+                i = i + 1
+        
+        keylen = len(self.rTa.keys())
+        self.assertTrue(i == keylen, "getters (" + str(i) + ") don't equal the number of tags (" + str(keylen) + ")...")
 
     # ---------------
 
@@ -56,7 +61,13 @@ class test_RisDataModel(unittest.TestCase):
         """
         make sure there are no more setters than there are in the tag list
         """
-        pass
+        i = 0
+        for item in dir(self.rdm):
+            if re.match("^set", item):
+                i = i + 1
+        
+        keylen = len(self.rTa.keys())
+        self.assertTrue(i == keylen, "getters (" + str(i) + ") don't equal the number of tags (" + str(keylen) + ")...")
 
     # ---------------
  
@@ -64,8 +75,34 @@ class test_RisDataModel(unittest.TestCase):
         """
         make sure that every getter has a setter match.
         """
-        pass
+        gettrs = []
+        for item in dir(self.rdm):
+            if re.match("^get", item):
+                gettrs.append(item)
+        settrs = []
+        for item in dir(self.rdm):
+            if re.match("^set", item):
+                settrs.append(item)
+        for item in gettrs:
+            newItem = re.sub("get", "set", item)
+            self.assertTrue(newItem in settrs, "item " + item + " in setters")
  
+    def test_refTagSetterGetterMatches_01(self):
+        """
+        make sure that every getter has a setter match.
+        """
+        gettrs = []
+        for item in dir(self.rdm):
+            if re.match("^get", item):
+                gettrs.append(item)
+        settrs = []
+        for item in dir(self.rdm):
+            if re.match("^set", item):
+                settrs.append(item)
+        for item in settrs:
+            newItem = re.sub("set", "get", item)
+            self.assertTrue(newItem in gettrs, "item " + item + " in getters")
+
 ###############################################################################
 
 
