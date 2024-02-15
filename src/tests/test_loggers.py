@@ -6,11 +6,8 @@ Testing logging functionality via CyLogger
 """
 # --- Native python libraries
 import unittest
-import time
 import sys
 import os
-import traceback
-from datetime import datetime
 
 #####
 # Include the parent project directory in the PYTHONPATH
