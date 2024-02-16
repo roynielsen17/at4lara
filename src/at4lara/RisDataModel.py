@@ -310,130 +310,151 @@ class RisDataModel():
         """
         RISdata["A1"] = a1
         
-    def setA2(self, a1):
+    def setA2(self, a2):
         """
         
         """
+        RISdata["A2"] = a2
         
         
-    def setA3(self, a1):
+    def setA3(self, a3):
         """
         
         """
+        RISdata["A3"] = a3
         
         
-    def setA4(self, a1):
+    def setA4(self, a4):
         """
         
         """
+        RISdata["A4"] = a4
         
         
-    def setA5(self, a1):
+    def setA5(self, a5):
         """
         
         """
+        RISdata["A5"] = a5
         
         
-    def setA6(self, a1):
+    def setA6(self, a6):
         """
         
         """
+        RISdata["A6"] = a6
         
         
-    def setAB(self, a1):
+    def setAB(self, ab):
         """
         
         """
+        RISdata["AB"] = ab
         
         
-    def setAD(self, a1):
+    def setAD(self, ad):
         """
         
         """
+        RISdata["AD"] = ad
         
         
-    def setDOI(self, a1):
+    def setDOI(self, doi):
         """
         
         """
+        RISdata["DOI"] = doi
         
         
-    def setEP(self, a1):
+    def setEP(self, ep):
         """
         
         """
+        RISdata["EP"] = ep
         
         
-    def setET(self, a1):
+    def setET(self, et):
         """
         
         """
+        RISdata["ET"] = et
         
         
-    def setJ1(self, a1):
+    def setJ1(self, j1):
         """
         
         """
+        RISdata["J1"] = j1
         
         
-    def setJ2(self, a1):
+    def setJ2(self, j2):
         """
         
         """
+        RISdata["J2"] = j2
         
         
-    def setJA(self, a1):
+    def setJA(self, ja):
         """
         
         """
+        RISdata["JA"] = ja
         
         
-    def setL1(self, a1):
+    def setL1(self, l1):
         """
         
         """
+        RISdata["L1"] = l1
         
         
-    def setLK(self, a1):
+    def setLK(self, lk):
         """
         
         """
+        RISdata["LK"] = lk
         
         
-    def setN1(self, a1):
+    def setN1(self, n1):
         """
         
         """
+        RISdata["N1"] = n1
         
         
-    def setN2(self, a1):
+    def setN2(self, n2):
         """
         
         """
+        RISdata["N2"] = n2
         
         
-    def setPB(self, a1):
+    def setPB(self, pb):
         """
         
         """
+        RISdata["PB"] = pb
         
         
-    def setRD(self, a1):
+    def setRD(self, rd):
         """
         
         """
+        RISdata["RD"] = rd
         
         
-    def setRN(self, a1):
+    def setRN(self, rn):
         """
         
         """
+        RISdata["RN"] = rn
         
         
-    def setSN(self, a1):
+    def setSN(self, sn):
         """
         
         """
+        RISdata["SN"] = sn
         
         
     def setSR(self, sr):
@@ -447,28 +468,33 @@ class RisDataModel():
         else:
             self.RISdata["SR"] = sr
         
-    def setT1(self, a1):
+        
+    def setT1(self, t1):
         """
         
         """
+        RISdata["T1"] = t1
         
         
-    def setT2(self, a1):
+    def setT2(self, t2):
         """
         
         """
+        RISdata["T2"] = t2
         
         
-    def setTA(self, a1):
+    def setTA(self, ta):
         """
         
         """
+        RISdata["TA"] = ta
         
         
-    def setTT(self, a1):
+    def setTT(self, tt):
         """
         
         """
+        RISdata["TT"] = tt
         
         
     def setTY(self, ty):
@@ -485,30 +511,35 @@ class RisDataModel():
         """
         
         """
+        RISdata["UR"] = ur
         
         
     def setWT(self, wt):
         """
         
         """
+        RISdata["WT"] = wt
         
         
     def setWV(self, wv):
         """
         
         """
+        RISdata["WV"] = wv
         
         
     def setY1(self, y1):
         """
         
         """
+        RISdata["Y1"] = y1
         
         
     def setYR(self, yr):
         """
         
         """
+        RISdata["YR"] = yr
         
         
         
