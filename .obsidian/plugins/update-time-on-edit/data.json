@@ -9,6 +9,7 @@
   "enableExperimentalHash": false,
   "fileHashMap": {
     "README.md": "9057d3074617ce5c1ad5ee72458da07e491f633c674918710a906ba6e201f26f",
-    "design/convertingDotMdToPDF.md": "12c649515d5379e4b5e2a40f6c76fe9dc8914fa9c19832b2e549b0fe7ee3d07a"
+    "design/convertingDotMdToPDF.md": "12c649515d5379e4b5e2a40f6c76fe9dc8914fa9c19832b2e549b0fe7ee3d07a",
+    "design/SequenceDiagrams/SequenceDiagrams.md": "52e161bc8f4a14497eeff3495147d72a1051a8a58ec70a6e041d82f59756fdb1"
   }
 }

@@ -13,9 +13,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "design/SequenceDiagrams/SequenceDiagrams.md",
                 "mode": "source",
-                "source": false
+                "source": true
               }
             }
           }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "design/SequenceDiagrams/SequenceDiagrams.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "design/SequenceDiagrams/SequenceDiagrams.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "design/SequenceDiagrams/SequenceDiagrams.md"
               }
             }
           }
@@ -150,6 +150,7 @@
   },
   "active": "6929e2c88e92c468",
   "lastOpenFiles": [
+    "README.md",
     "design/SequenceDiagrams/SequenceDiagrams.md",
     "design/UseCases/UseCases.md",
     "design/SequenceDiagrams/UseCases.md",
