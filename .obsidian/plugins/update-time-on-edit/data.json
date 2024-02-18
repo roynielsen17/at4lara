@@ -1,0 +1,14 @@
+{
+  "dateFormat": "yyyy-MM-dd'T'HH:mm",
+  "enableCreateTime": true,
+  "headerUpdated": "updated",
+  "headerCreated": "created",
+  "minMinutesBetweenSaves": 1,
+  "ignoreGlobalFolder": [],
+  "ignoreCreatedFolder": [],
+  "enableExperimentalHash": false,
+  "fileHashMap": {
+    "README.md": "2863939606edac841fda502916d405ef98c9e1fc99ab39ce4f1c14b5b72f7baf",
+    "design/convertingDotMdToPDF.md": "12c649515d5379e4b5e2a40f6c76fe9dc8914fa9c19832b2e549b0fe7ee3d07a"
+  }
+}

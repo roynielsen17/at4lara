@@ -1,3 +1,8 @@
+---
+id: 01HPT9HVPCY8RK4TM1TRCG6NAC
+created: 2024-02-07T20:09
+updated: 2024-02-16T18:05
+---
 # learning-and-research-accelerator
 
 Tool framework for Symbiotic Intelligence - with the goal of facilitating learning and research in both man and machine.
