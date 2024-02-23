@@ -122,6 +122,7 @@ International
 Integrated
 Integrate
 Interface
+Implementing
 PROFILE
 PQg
 PA
@@ -197,6 +198,8 @@ Potential
 Plugin
 Possible
 Partway
+Parse
+Projects
 mntrRGB
 mluc
 mS
@@ -589,6 +592,8 @@ two
 terms
 through
 three
+taught
+tutorial
 gXYZ
 gTRC
 gi
@@ -743,6 +748,7 @@ biblographical
 beta
 bibliography
 bound
+because
 rTRC
 rfV
 rW
@@ -971,6 +977,7 @@ capability
 completely
 controller
 criteria
+called
 enUS
 eK
 eH
@@ -1108,6 +1115,7 @@ AIP
 Alara
 App
 Apps
+Alpert
 hy
 hV
 hVr
@@ -1176,6 +1184,7 @@ hoping
 houses
 html
 how
+him
 WY
 WbT
 Wd
@@ -1254,6 +1263,10 @@ WBU
 WsIE
 WCn
 Wiley
+Web
+Websites
+With
+WKGHMF
 KE
 Ki
 KJw
@@ -1324,6 +1337,7 @@ KErz
 Kids
 Kerloapp
 Kerko
+KDnuggets
 iF
 ik
 io
@@ -1486,6 +1500,7 @@ NY
 Nielsen
 Network
 NOAA
+NLP
 pq
 py
 pE
@@ -1594,6 +1609,7 @@ proposed
 pattern
 plugins
 pass
+pages
 uq
 uc
 ukX
@@ -1919,6 +1935,7 @@ latest
 languages
 local
 leveraged
+links
 fr
 fD
 fd
@@ -2191,6 +2208,7 @@ Vjh
 VbC
 View
 Views
+VVYWNV
 Fo
 Fd
 Fa
@@ -2407,6 +2425,8 @@ Model
 Modeling
 Miminum
 MVC
+MLearning
+Medium
 nE
 nuH
 nBL
@@ -2630,6 +2650,7 @@ Ew
 EOF
 End
 Eventually
+Easily
 DJN
 Dz
 DZ
@@ -2691,6 +2712,8 @@ Design
 Driving
 Dynamicaly
 Dynamic
+Data
+DigitalOcean
 Hn
 Hc
 HW
@@ -2752,6 +2775,8 @@ HIf
 Ho
 Have
 HVPCY
+How
+Henry
 zP
 zK
 zW
@@ -2919,6 +2944,8 @@ Gw
 Ghb
 Gse
 Goal
+GeeksforGeeks
+Guide
 YR
 YOv
 YQ
@@ -2993,6 +3020,7 @@ Yq
 YXd
 Ym
 York
+YouTube
 xf
 xOY
 xR
@@ -3127,6 +3155,10 @@ Scraping
 Searching
 Scrape
 Start
+Soup
+ScrapingBee
+Step
+SZMRH
 jL
 jxo
 jo
@@ -3478,6 +3510,7 @@ Currently
 Checkland
 Colonization
 Conference
+Case
 TX
 TlF
 TJ
@@ -3541,6 +3574,9 @@ Tool
 Thinking
 Technology
 The
+Tutorial
+Tortoise
+Text
 QD
 Qk
 Qd
@@ -3626,6 +3662,7 @@ QN
 QUm
 QEj
 Quy
+Quick
 oQ
 ons
 oM
@@ -3779,6 +3816,7 @@ Retrieved
 Reference
 Roy
 Related
+Requests
 Br
 BT
 Bn
@@ -3828,3 +3866,6 @@ Bcu
 BH
 Bi
 Bibliography
+Brave
+BeautifulSoup
+Beautiful

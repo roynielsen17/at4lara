@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "design/SequenceDiagrams/SequenceDiagrams.md",
-                "mode": "source",
+                "file": "design/UseCase/UseCaseDiagrams.md",
+                "mode": "preview",
                 "source": true
               }
             }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "design/SequenceDiagrams/SequenceDiagrams.md",
+                "file": "design/UseCase/UseCaseDiagrams.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "design/SequenceDiagrams/SequenceDiagrams.md",
+                "file": "design/UseCase/UseCaseDiagrams.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "design/SequenceDiagrams/SequenceDiagrams.md"
+                "file": "design/UseCase/UseCaseDiagrams.md"
               }
             }
           }
@@ -150,14 +150,23 @@
   },
   "active": "6929e2c88e92c468",
   "lastOpenFiles": [
-    "README.md",
     "design/SequenceDiagrams/SequenceDiagrams.md",
+    "design/UseCase/UseCaseDiagrams.md",
+    "design/UseCase",
+    "src/proto/whiskyscraper/whiskyscraper/spiders/__pycache__/__init__.cpython-311.pyc",
+    "src/proto/whiskyscraper/whiskyscraper/spiders/__pycache__",
+    "src/proto/whiskyscraper/whiskyscraper/__pycache__/settings.cpython-311.pyc",
+    "src/proto/whiskyscraper/whiskyscraper/__pycache__/__init__.cpython-311.pyc",
+    "src/proto/whiskyscraper/whiskyscraper/__pycache__",
+    "src/proto/whiskyscraper/scrapy.cfg",
+    "src/proto/whiskyscraper/whiskyscraper/spiders/__init__.py",
+    "src/proto/whiskyscraper/whiskyscraper/spiders",
+    "src/proto/whiskyscraper/whiskyscraper/settings.py",
+    "src/proto/venv/lib/python3.11/site-packages/idna-3.6.dist-info/LICENSE.md",
+    "README.md",
     "design/UseCases/UseCases.md",
     "design/SequenceDiagrams/UseCases.md",
-    "design/SequenceDiagrams",
-    "design/design_sketch_001.pdf",
     "design/convertingDotMdToPDF.md",
-    "design/convertingDotMdToPDF.jpeg",
-    "design/UseCases"
+    "design/convertingDotMdToPDF.jpeg"
   ]
 }

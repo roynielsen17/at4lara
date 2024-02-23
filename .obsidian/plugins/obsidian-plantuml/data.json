@@ -1,8 +1,8 @@
 {
-  "server_url": "https://127.0.0.1:8080/plantuml",
+  "server_url": "",
   "header": "",
   "debounce": 3,
-  "localJar": "/usr/local/bin/plantuml",
+  "localJar": "",
   "javaPath": "java",
   "dotPath": "dot",
   "defaultProcessor": "png",
