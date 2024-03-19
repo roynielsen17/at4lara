@@ -12,6 +12,7 @@
     "design/convertingDotMdToPDF.md": "12c649515d5379e4b5e2a40f6c76fe9dc8914fa9c19832b2e549b0fe7ee3d07a",
     "design/SequenceDiagrams/SequenceDiagrams.md": "883ec638d418dab62f4d723dc28798140b4d9e4dadbab23082a94adaca9e16dd",
     "src/proto/venv/lib/python3.11/site-packages/idna-3.6.dist-info/LICENSE.md": "a7f589463f06874246c8b0a912c030c7dc975c6b2af27b6c697d8bd10ab4460e",
-    "design/UseCase/UseCaseDiagrams.md": "c09e20dc9de1f03b0e6018b6299f5c11858c7f3ac09ecbea00b6567e9857cf94"
+    "design/UseCase/UseCaseDiagrams.md": "1dd55cd146c09ccd3381ee247bc8fd1cbac6d2a5faef22ce73a4b53540ca2283",
+    "design/DocumentDatabases/DocumentDatabases.md": "99ad4d11845e9b5697a55fce22c47fd1f1d2671c23a5c72324350abe91fe7d71"
   }
 }

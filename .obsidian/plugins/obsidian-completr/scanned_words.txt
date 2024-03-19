@@ -53,6 +53,9 @@ Jol
 JJA
 JR
 John
+JSTOR
+Journals
+Journal
 ICC
 IzK
 IT
@@ -123,6 +126,9 @@ Integrated
 Integrate
 Interface
 Implementing
+ISI
+Institute
+Interior
 PROFILE
 PQg
 PA
@@ -200,6 +206,11 @@ Possible
 Partway
 Parse
 Projects
+Paperpile
+Press
+ProQuest
+Picks
+PubMed
 mntrRGB
 mluc
 mS
@@ -439,6 +450,8 @@ all
 alpha
 awesome
 any
+are
+academic
 desc
 dv
 dt
@@ -518,6 +531,9 @@ directory
 divorced
 definition
 dynamically
+different
+document
+databases
 trXYZ
 to
 tBf
@@ -594,6 +610,7 @@ through
 three
 taught
 tutorial
+tables
 gXYZ
 gTRC
 gi
@@ -677,6 +694,7 @@ guide
 gold
 generated
 goals
+github
 bXYZ
 bTRC
 br
@@ -749,6 +767,8 @@ beta
 bibliography
 bound
 because
+browser
+best
 rTRC
 rfV
 rW
@@ -905,6 +925,8 @@ would
 website
 will
 weather
+where
+way
 cprt
 cY
 cT
@@ -978,6 +1000,7 @@ completely
 controller
 criteria
 called
+copytabtitleurl
 enUS
 eK
 eH
@@ -1056,6 +1079,8 @@ each
 easily
 except
 engines
+extension
+eBooks
 AQq
 AQaq
 Ao
@@ -1116,6 +1141,12 @@ Alara
 App
 Apps
 Alpert
+AYC
+Academic
+Articles
+Access
+Albertsons
+AOK
 hy
 hV
 hVr
@@ -1267,6 +1298,10 @@ Web
 Websites
 With
 WKGHMF
+WBJ
+Which
+Wikipedia
+Waterford
 KE
 Ki
 KJw
@@ -1422,6 +1457,9 @@ integrating
 internals
 interface
 images
+include
+indexed
+insights
 Ns
 NX
 Nc
@@ -1501,6 +1539,8 @@ Nielsen
 Network
 NOAA
 NLP
+NOTE
+Nevada
 pq
 py
 pE
@@ -1610,6 +1650,9 @@ pattern
 plugins
 pass
 pages
+public
+pay
+playground
 uq
 uc
 ukX
@@ -1803,6 +1846,7 @@ similarly
 structure
 swapable
 stretch
+searched
 vl
 va
 vf
@@ -2089,6 +2133,9 @@ UBI
 Ua
 Uls
 USA
+University
+USU
+UChicago
 yY
 yQ
 yC
@@ -2295,6 +2342,8 @@ Forum
 Framework
 Future
 First
+Free
+Find
 LQ
 LV
 LK
@@ -2360,6 +2409,10 @@ Ln
 Libraries
 Library
 Likely
+Link
+Liping
+LibGuides
+Legit
 Mu
 MU
 MT
@@ -2427,6 +2480,7 @@ Miminum
 MVC
 MLearning
 Medium
+Management
 nE
 nuH
 nBL
@@ -2582,6 +2636,10 @@ Oja
 ORk
 ORI
 Often
+Onetab
+One
+Open
+Online
 Ed
 Em
 EG
@@ -2651,6 +2709,10 @@ EOF
 End
 Eventually
 Easily
+EBSCO
+Education
+Electronic
+Educational
 DJN
 Dz
 DZ
@@ -2714,6 +2776,13 @@ Dynamicaly
 Dynamic
 Data
 DigitalOcean
+Document
+Databases
+Description
+Duquesne
+Directory
+DOAJ
+Department
 Hn
 Hc
 HW
@@ -2777,6 +2846,9 @@ Have
 HVPCY
 How
 Henry
+Home
+Humanities
+Harvard
 zP
 zK
 zW
@@ -2946,6 +3018,8 @@ Gse
 Goal
 GeeksforGeeks
 Guide
+Gale
+Guides
 YR
 YOv
 YQ
@@ -3021,6 +3095,7 @@ YXd
 Ym
 York
 YouTube
+YQQMH
 xf
 xOY
 xR
@@ -3159,6 +3234,12 @@ Soup
 ScrapingBee
 Step
 SZMRH
+Safari
+SCI
+SCIE
+SSCI
+Scribendi
+Science
 jL
 jxo
 jo
@@ -3239,6 +3320,7 @@ jM
 jQ
 jG
 just
+journal
 kj
 kw
 kP
@@ -3511,6 +3593,7 @@ Checkland
 Colonization
 Conference
 Case
+Check
 TX
 TlF
 TJ
@@ -3577,6 +3660,8 @@ The
 Tutorial
 Tortoise
 Text
+Top
+Tools
 QD
 Qk
 Qd
@@ -3738,6 +3823,7 @@ one
 only
 otherwise
 open
+objects
 Rr
 Rg
 RRU
@@ -3817,6 +3903,10 @@ Reference
 Roy
 Related
 Requests
+RAH
+Research
+Review
+Reno
 Br
 BT
 Bn
@@ -3869,3 +3959,7 @@ Bibliography
 Brave
 BeautifulSoup
 Beautiful
+Business
+Brown
+Better
+Best
