@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "design/DocumentDatabases/DocumentDatabases.md",
-                "mode": "preview",
+                "file": "design/Views/Pyside/PySide6.md",
+                "mode": "source",
                 "source": true
               }
             }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "design/DocumentDatabases/DocumentDatabases.md",
+                "file": "design/Views/Pyside/PySide6.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "design/DocumentDatabases/DocumentDatabases.md",
+                "file": "design/Views/Pyside/PySide6.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "design/DocumentDatabases/DocumentDatabases.md"
+                "file": "design/Views/Pyside/PySide6.md"
               }
             }
           }
@@ -150,20 +150,21 @@
   },
   "active": "bbe23326d5e78c09",
   "lastOpenFiles": [
+    "design/Models/proto_012.drawio",
+    "design/proto_012.drawio",
+    "design/DocumentDatabases/DocumentDatabases.md",
+    "design/Views/Pyside/PySide6.md",
+    "design/Views/Pyside",
+    "design/Views",
+    "src/proto/getpage_011.py~",
+    "design/Models/VonNeumanMachine_006.drawio",
+    "design/Models/VonNeumanMachine_006.drawio.pdf",
+    "src/proto/getpage_011.py",
+    "src/proto/getpage_010.py",
     "design/Models/Models_2024-03-17_1648.drawio",
     "design/Models/preQ2_2024",
-    "design/Models",
-    "currentMeds.pdf",
-    "design/DocumentDatabases",
     "design/UseCase/UseCaseDiagrams.md",
-    "design/DocumentDatabases/DocumentDatabases.md",
     "design/SequenceDiagrams/SequenceDiagrams.md",
-    "design/UseCase",
-    "src/proto/whiskyscraper/whiskyscraper/spiders/__pycache__/__init__.cpython-311.pyc",
-    "src/proto/whiskyscraper/whiskyscraper/spiders/__pycache__",
-    "src/proto/whiskyscraper/whiskyscraper/__pycache__/settings.cpython-311.pyc",
-    "src/proto/whiskyscraper/whiskyscraper/__pycache__/__init__.cpython-311.pyc",
-    "src/proto/whiskyscraper/whiskyscraper/__pycache__",
     "src/proto/venv/lib/python3.11/site-packages/idna-3.6.dist-info/LICENSE.md",
     "README.md",
     "design/UseCases/UseCases.md",

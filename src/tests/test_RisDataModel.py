@@ -13,9 +13,9 @@ appendDir = "/".join(os.path.abspath(os.path.dirname(__file__)).split('/')[:-1])
 sys.path.append(appendDir)
 
 # --- Non-native python libraries in this source tree
-from at4lara.RisDataModel import RisDataModel
-from at4lara.RisDataModel import refTypes
-from at4lara.RisDataModel import refTags
+from at4lara.models.RisDataModel import RisDataModel
+from at4lara.models.RisDataModel import refTypes
+from at4lara.models.RisDataModel import refTags
  
 
 class test_RisDataModel(unittest.TestCase):
