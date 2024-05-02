@@ -225,6 +225,7 @@ PySimpleGUI
 PyQtGraph
 Packages
 Pip
+Per
 mntrRGB
 mluc
 mS
@@ -331,6 +332,8 @@ met
 models
 modern
 making
+middle
+maybe
 XYZ
 Xu
 XC
@@ -471,6 +474,7 @@ academic
 amp
 apps
 about
+add
 desc
 dv
 dt
@@ -557,6 +561,10 @@ differences
 deploy
 difference
 documentation
+data
+dragged
+drag
+drop
 trXYZ
 to
 tBf
@@ -636,6 +644,7 @@ tutorial
 tables
 tools
 top
+trash
 gXYZ
 gTRC
 gi
@@ -796,6 +805,8 @@ browser
 best
 book
 binding
+bottom
+bin
 rTRC
 rfV
 rW
@@ -883,6 +894,7 @@ related
 remote
 reaching
 reach
+right
 wtpt
 wy
 wDJ
@@ -954,6 +966,7 @@ will
 weather
 where
 way
+window
 cprt
 cY
 cT
@@ -1030,6 +1043,12 @@ called
 copytabtitleurl
 correctly
 collapsible
+column
+containing
+chosen
+click
+copy
+clipboard
 enUS
 eK
 eH
@@ -1112,6 +1131,7 @@ extension
 eBooks
 examples
 edition
+external
 AQq
 AQaq
 Ao
@@ -1178,6 +1198,8 @@ Articles
 Access
 Albertsons
 AOK
+AVKP
+April
 hy
 hV
 hVr
@@ -1497,6 +1519,7 @@ insights
 install
 instructions
 installed
+including
 Ns
 NX
 Nc
@@ -1695,6 +1718,9 @@ pay
 playground
 pyside
 package
+pointers
+picture
+popup
 uq
 uc
 ukX
@@ -1893,6 +1919,10 @@ searched
 started
 simple
 section
+seaerchEngineColleceWindow
+stack
+stacks
+start
 vl
 va
 vf
@@ -1954,6 +1984,7 @@ version
 viable
 views
 via
+view
 lY
 lx
 lR
@@ -2028,6 +2059,10 @@ leveraged
 links
 license
 licensing
+label
+later
+loaded
+left
 fr
 fD
 fd
@@ -2107,6 +2142,7 @@ four
 fast
 functioning
 functionality
+folder
 Ui
 UNHe
 UR
@@ -2306,6 +2342,7 @@ VbC
 View
 Views
 VVYWNV
+VYCRPKKZ
 Fo
 Fd
 Fa
@@ -2470,6 +2507,7 @@ Legit
 LGPL
 LogRocket
 Linux
+Love
 Mu
 MU
 MT
@@ -2544,6 +2582,8 @@ Manage
 Manual
 Mint
 Martin
+Martinez
+March
 nE
 nuH
 nBL
@@ -2784,6 +2824,8 @@ Edition
 Environments
 Essentials
 Erriez
+Engine
+Eric
 DJN
 Dz
 DZ
@@ -2928,6 +2970,7 @@ HDCSMRMNTB
 HOWTO
 Helper
 Hunter
+HWV
 zP
 zK
 zW
@@ -3416,6 +3459,8 @@ jQ
 jG
 just
 journal
+jpg
+junk
 kj
 kw
 kP
@@ -3696,6 +3741,7 @@ Creator
 Center
 Commercial
 Comparing
+Collect
 TX
 TlF
 TJ
@@ -4074,3 +4120,5 @@ Best
 Build
 Blog
 Books
+Brainstorm
+Browser
