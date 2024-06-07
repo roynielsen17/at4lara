@@ -7,10 +7,33 @@ import sys
 import json
 import traceback
 
+print(__file__)
+
 #####
 # Include the parent project directory in the PYTHONPATH
 appendDir = "/".join(os.path.abspath(os.path.dirname(__file__)).split('/')[:-1])
-sys.path.append(appendDir)
+
+print(appendDir)
+print(".")
+print(".")
+print(".")
+print(".")
+print(".")
+print(".")
+print(".")
+print(".")
+
+
+
+
+
+sys.path.append("/".join(os.path.abspath(os.path.dirname(__file__)).split('/')[:-1]))
+
+print(".")
+print(".")
+print(".")
+print(".")
+print(".")
 
 # --- Non-native python libraries in this source tree
 from at4lara.lib.loggers import CyLogger
