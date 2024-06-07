@@ -73,6 +73,15 @@ Integrated | Library/App/Framework | link
 not yet | npe2 (or similar plugin framework - but this is already in python)  | https://github.com/napari/npe2
 
 
+<<<<<<< HEAD
+=======
+### Frameworks to integrate into the project
+Integrated | Library/App/Framework | link
+--- | --- | ---
+not yet | ck - Collective Knowledge | https://www.cknowledge.org/ </p> https://github.com/mlcommons/ck </p> https://ck.readthedocs.io/en/latest/src/introduction.html </p> https://github.com/topics/collective-knowledge </p> https://royalsocietypublishing.org/doi/10.1098/rsta.2020.0211 </p> https://ieeexplore.ieee.org/document/7459430?arnumber=7459430 </p> https://awesomeopensource.com/projects/collective-knowledge/portable-workflows/python </p> https://www.youtube.com/watch?v=IJQ-PpSU1kY </p> https://www.youtube.com/watch?v=7zpeIVwICa4 </p> https://www.youtube.com/watch?v=pk231d_4esI </p> https://www.youtube.com/playlist?list=PL_O7lvvJGLbg54GdWTqcoDHzByQhs2RMX
+
+
+>>>>>>> f0796d85807a957b954ee76e95326ac569bce0d9
 ### Modeling languages/info
 Integrated | Library/App/Framework | link
 --- | --- | ---
@@ -96,7 +105,12 @@ not yet | atlassian products | https://www.atlassian.com/
 
 ### Miminum viable product:
 
+<<<<<<< HEAD
 1. Kerloapp as default - just read a zotero db and display (local or web)
+=======
+1. Kerkoapp as default reference process - just read a zotero db and display (from local or from web)
+
+>>>>>>> f0796d85807a957b954ee76e95326ac569bce0d9
 2. Scrape web page for ris/zot related info and store in zot db (local or web)
 3. Scrape PDF for ris/zont related info and store in zot db (local or web)
 4. scholar.google.com, search for info, collect ris, put in zot db (local or web)
