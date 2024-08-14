@@ -19,7 +19,7 @@ from at4lara.lib.loggers import LogPriority as lp
 from at4lara.lib.loggers import LogPriority as logPriority
 
 
-class RisStuff():
+class ReadRisData():
 
     RisData={}
     i = 0
@@ -79,7 +79,7 @@ class RisStuff():
                     pass
         return self.RisData
 
-    def readRisData(self, stringBlock=""):
+    def readRisStringData(self, stringBlock=""):
         """
         """
         #####
@@ -122,7 +122,7 @@ class RisStuff():
 
 if __name__ == "__main__" : 
 
-    rs = RisStuff()
+    rs = ReadRisData()
     risData = {}
     # risData = rs.readExistingRisFile("ZotOut/python-Western.ris")
     # rs.readExistingRisFile("ZotOut/python-Western.ris")
@@ -140,7 +140,7 @@ if __name__ == "__main__" :
     print("-------------")
     print("=============")
 
-    ris = RisStuff()
+    ris = ReadRisData()
     risData = {}
     path2search = './ZotOut'
     for myfile in glob.glob(path2search + '/*.ris'):
@@ -154,7 +154,7 @@ if __name__ == "__main__" :
             raise(err)
         else:
             print(file_content)
-            ris.readRisData(file_content)
+            ris.readRisStringData(file_content)
 
     risData = rs.readMyRisData()
     print(json.dumps(risData, indent=4))
