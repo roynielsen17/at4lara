@@ -1,3 +1,8 @@
+---
+id: 01JGM9YNFBDBB49AKD91MR56SF
+created: 2025-01-02T10:30
+updated: 2025-01-02T13:05
+---
 # First Attempt At Minimum Viable Product Brainstorming
 
 

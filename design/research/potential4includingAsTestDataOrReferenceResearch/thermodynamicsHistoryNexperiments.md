@@ -1,14 +1,15 @@
 ---
 tags:
- - " #thermodynamics"
- - " #experiments"
- - " #thermodynamicsExperiments"
- - " #history"
- - " #historyOfScience"
- - " #ScienceHistory"
- - " #sources4"
+  - " #thermodynamics"
+  - " #experiments"
+  - " #thermodynamicsExperiments"
+  - " #history"
+  - " #historyOfScience"
+  - " #ScienceHistory"
+  - " #sources4"
 created: 2023-04-12T17:58:07-06:00
-updated: 2023-04-12T18:10:14-06:00
+updated: 2025-01-02T13:05
+id: 01JGM9YNK538RJ2GSKPE7JAD3V
 ---
 
 # Thermodynamics: History, Experiments and more...

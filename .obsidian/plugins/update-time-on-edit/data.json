@@ -16,6 +16,11 @@
     "design/DocumentDatabases/DocumentDatabases.md": "99ad4d11845e9b5697a55fce22c47fd1f1d2671c23a5c72324350abe91fe7d71",
     "design/Views/Pyside/PySide6.md": "90f95de2870393dc44904b58160525640d0407b23d7fa6c1ecef3f0edab1ff57",
     "design/Views/SearchEngineCollectWindow/SearchEngineCollectWindow.md": "c7c6c5c3010f22c3b5c85b93dc0671b7a231b128980483775fbee0229985274a",
-    "design/Models/module.md": "8bb79c81dec023b23a40f63cedcd598d47d5ffb1706dbf8e6551634cb14208af"
+    "design/Models/module.md": "16a6bf6ec8d354d53f84c4b67edbe3bf9afe27c6496dfc7ceb8af5ebef99dcce",
+    "readmeTemplate.md": "1e5145651d3c0233333ecb6a0f02eff518f8c0f4f911d88f3cdd4c50dda2d768",
+    "design/randomDesignThoughts.md": "a5f555f6679f947d7a6ec67d4008b466edae024cb1228750907364ef245cd63e",
+    "design/aboutTools/copyTabTitleURL/copyTabTitleURL.md": "5a67fe22324167d1f5a96dfc20add26e49bd7293ca8495e0a41aba129a73b539",
+    "design/research/potential4includingAsTestDataOrReferenceResearch/AI-ML-N-CollectiveKnowledge-CollectiveMind.md": "a8b83c1a93e27e3ef805e3d8fce699272b584713ba95c03b12415b2dfa4aea6b",
+    "design/research/potential4includingAsTestDataOrReferenceResearch/thermodynamicsHistoryNexperiments.md": "43b1d419b4aed6965d44651eded9878e368de132bc342712cc589bfe5868daeb"
   }
 }

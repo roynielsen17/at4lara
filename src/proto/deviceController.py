@@ -29,20 +29,47 @@ class DeviceController(object):
             self.logger = CyLogger()
         self.prefix = []
 
-    def printControllerDeviceState(self):
+    def printControllerDeviceState(self, logger=False, console=False, message = ""):
         """
+        Log / Print Controller Device State
+ 
+        logger: this variable is the lp.XXXX value that the programmer
+                wants the message to be printed at.
+        console: this variable is true/false, whether or not the 
+                 message should be printed at the consle.
         """
-        pass
+        if logger:
+            self.logger.log(logger, "Controller Device State: " + message)
+        if console:
+            print("Controller Device State: " + str(message))
 
-    def printStateMachineDeviceState(self):
+    def printStateMachineDeviceState(self, logger=False, console=False):
         """
+        Log / Print State Machine Device State
+         
+        logger: this variable is the lp.XXXX value that the programmer
+                wants the message to be printed at.
+        console: this variable is true/false, whether or not the 
+                 message should be printed at the consle.
         """
-        pass
+        if logger:
+            self.logger.log(logger, "State Machine Device State: " + message)
+        if console:
+            print("State Machine Device State: " + str(message))
 
-    def printIoDeviceState(self):
+    def printIoDeviceState(self, logger=False, console=False):
         """
+        Log / Print I/O Device State
+
+        logger: this variable is the lp.XXXX value that the programmer
+                wants the message to be printed at.
+        console: this variable is true/false, whether or not the 
+                 message should be printed at the consle.
         """
-        pass
+        if logger:
+            self.logger.log(logger, "I/O Device State: " + message)
+        if console:
+            print("I/O Device State: " + str(message))
 
 
 
