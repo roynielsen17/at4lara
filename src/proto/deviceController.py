@@ -21,6 +21,9 @@ from at4lara.lib.loggers import LogPriority as lp
 ###############################################################################
 
 class DeviceController(object):
+	
+	devices = {}
+	
     def __init__(self, logger):
 
         if logger:
@@ -28,6 +31,26 @@ class DeviceController(object):
         else:
             self.logger = CyLogger()
         self.prefix = []
+
+    def setControllerId(self, controllerId):
+		"""
+		"""
+		self.controllerId = controllerId
+		
+	def setDeviceId(self, deviceId):
+		"""
+		"""
+		self.deviceId = deviceId
+		
+	def validateDevice(self, device=""):
+		"""
+		"""
+		pass
+
+	def addDevice(self, device):
+		"""
+		"""
+		pass
 
     def printControllerDeviceState(self, logger=False, console=False, message = ""):
         """
