@@ -27,6 +27,8 @@ import logging
 import logging.handlers
 
 from at4lara.lib.singleton import Singleton
+from at4lara.config import DEFAULT_LOG_LEVEL
+
 #from logging.handlers import RotatingFileHandler
 #sys.path.append("..")
 ###############################################################################
@@ -124,14 +126,14 @@ class CyLogger(Singleton):
     
     instanciatedLoggers = {}
 
-    def __init__(self, environ=False, debug_mode=False, verbose_mode=False, level=30, *args, **kwargs):
+    def __init__(self, environ=False, debug_mode=False, verbose_mode=False, level=DEFAULT_LOG_LEVEL, *args, **kwargs):
         """
         """
         if str(level):
-            print(".............Level: " + str(level))
+            # print(".............Level: " + str(level))
             self.lvl = int(level)
         else:
-            self.lvl = 30
+            self.lvl = DEFAULT_LOG_LEVEL
         '''
         if environ:
             self.environment = environ
@@ -145,19 +147,6 @@ class CyLogger(Singleton):
             elif re.match("^verbose$", envVerboseMode):
                 self.lvl = 20
         '''
-        if debug_mode or verbose_mode:
-            if debug_mode:
-                self.lvl = 10
-            elif verbose_mode:
-                self.lvl = 20
-        #####
-        # If the first three aren't passed in, make a guess based on level
-        if self.lvl < 0:
-            self.lvl = 20
-        elif self.lvl > 0:
-            self.validateLevel(self.lvl)
-        else:
-            self.lvl = 30
 
         self.filename = ""
         self.syslog = False
@@ -390,11 +379,15 @@ class CyLogger(Singleton):
         @author: Roy Nielsen
         """
         pri = str(priority)
-        if re.match("^\d\d$", pri) and self.validateLevel():
+        if re.match(r"^\d\d$", pri) and self.validateLevel():
             validatedLvl = int(pri)
         else:
             raise IllegalLoggingLevelError("Cannot log at this priority level: " + pri)
-        
+       
+
+        if int(priority) < int(self.lvl):
+            return
+ 
         if not msg:
             return
         
@@ -476,23 +469,23 @@ class CyLogger(Singleton):
             elif int(self.lvl) >= 10 and int(self.lvl) < 20:
                 #####
                 # Debug
-                self.logr.log(validatedLvl, longPrefix + "DEBUG: (" + pri + ") " + str(line))
+                self.logr.log(validatedLvl, longPrefix + "CRITICAL: (" + pri + ") " + str(line))
             elif int(self.lvl) >= 20 and int(self.lvl) < 30:
                 #####
                 # Info
-                self.logr.log(validatedLvl, longPrefix + "DEBUG: (" + pri + ") " + str(line))
+                self.logr.log(validatedLvl, longPrefix + "ERROR: (" + pri + ") " + str(line))
             elif int(self.lvl) >=30 and int(self.lvl) < 40:
                 #####
                 # Warning
                 try:
-                    self.logr.log(validatedLvl, longPrefix + "DEBUG: (" + str(pri) + ") " + str(line))
+                    self.logr.log(validatedLvl, longPrefix + "WARNING: (" + str(pri) + ") " + str(line))
                 except Exception as err:
                     print(LogPriority.DEBUG + " : "  + str(traceback.format_exc()))
                     print(LogPriority.DEBUG + " : " + str(err))
             elif int(self.lvl) >= 40 and int(self.lvl) < 50:
                 #####
                 # Error
-                self.logr.log(validatedLvl, longPrefix + "DEBUG: (" + pri + ") " + str(line))
+                self.logr.log(validatedLvl, longPrefix + "INFO: (" + pri + ") " + str(line))
             elif int(self.lvl) >= 50 and int(self.lvl) < 60:
                 #####
                 # Critical
