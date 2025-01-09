@@ -9,6 +9,7 @@ prototyping the device controller for modules of the at4lara machine.
 import os
 import re
 import sys
+import inspect
 import traceback
 
 from optparse import OptionParser, SUPPRESS_HELP, OptionValueError, Option
@@ -34,15 +35,31 @@ class DeviceController(object):
             self.logger = CyLogger()
         self.prefix = []
 
+        self.deviceControllerId = None
+        self.deviceClassId = None
+        self.deviceId = None
+        self.concreteDeviceId = None
+        self.mainControllerId = None
+
     def setControllerId(self, controllerId):
         """
         """
         self.controllerId = controllerId
         
+    def setDeviceClassId(self, deviceClassId):
+        """
+        """
+        self.deviceClassId = deviceClassId
+
     def setDeviceId(self, deviceId):
         """
         """
         self.deviceId = deviceId
+        
+    def setConcreteDeviceId(self, concreteDeviceId):
+        """
+        """
+        self.concreteDeviceId = concreteDeviceId
         
     def validateDevice(self, device=""):
         """
@@ -96,6 +113,33 @@ class DeviceController(object):
         if console:
             print("I/O Device State: " + str(message))
 
+    def printModuleIds(self, logger=False, consle=False):
+        """
+        """
+        if logger:
+            self.logger.log(logger, "deviceControllerId: " + str(self.deviceControllerId))
+            self.logger.log(logger, "deviceClassId: " + str(self.deviceClassId))
+            self.logger.log(logger, "deviceId: " + str(self.deviceId))
+            self.logger.log(logger, "concreteDeviceId: " + str(self.concreteDeviceId))
+            self.logger.log(logger, "mainControllerId: " + str(self.mainControllerId))
+        if console:
+            print("deviceControllerId: " + str(self.deviceControllerId))
+            print("deviceClassId: " + str(self.deviceClassId))
+            print("deviceId: " + str(self.deviceId))
+            print("concreteDeviceId: " + str(self.concreteDeviceId))
+            print("mainControllerId: " + str(self.mainControllerId))
+    
+    def printModuleMethods(self, logger=False, console=False):
+        """
+        """
+        modules = []
+        for item in dir(self.__class__):
+            if not re.match(r"^__.*", item):
+                modules.append(item)
+        if logger:
+            self.logger(logger, str(modules))
+        if console:
+            print(str(modules))
 
 
 ###############################################################################
