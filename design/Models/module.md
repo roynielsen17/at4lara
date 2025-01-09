@@ -1,8 +1,8 @@
 ---
 id: 01JGM4FZBFYFM27TMXGAS1Q0TD
 created: 2025-01-02T11:29
-updated: 2025-01-09T10:58
-modified: 2025-01-09T10:57:57-07:00
+updated: 2025-01-09T11:15
+modified: 2025-01-09T11:15:08-07:00
 ---
 
 ## What will the module contain
@@ -30,10 +30,10 @@ methods:
  * Check that all the methods defined in the interface exist in the concrete class (no private methods allowed, protected allowed: single underscore - as of 1/9/25, not supported.
  * Check that all the methods in the extended interface device class exist in the concrete device class
 instance variables - Check that instance variables are correct - like: 
- * deviceControllerId within appropriate range
+ * deviceControllerID within appropriate range
  * deviceClassID's within appropriate range
  * deviceID's are within appropriate range. (CRUD)
- * concreteDeviceID (FS/DB) within range, and matches deviceID and deviceClassID and deviceController ID
+ * concreteDeviceID (FS/DB - which one included) within range, and matches deviceID(CRUD) and deviceClassID and deviceControllerID
  * if main controller exists, it's ID is valid
  """ 
 
