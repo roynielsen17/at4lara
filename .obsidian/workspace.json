@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "design/Models/module.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
@@ -167,6 +167,8 @@
   },
   "active": "22eaa1a8078e37d6",
   "lastOpenFiles": [
+    "src/proto/__pycache__/deviceController.cpython-312.pyc",
+    "src/proto/__pycache__",
     "src/at4lara/__pycache__/config.cpython-312.pyc",
     "src/at4lara/lib/__pycache__/singleton.cpython-312.pyc",
     "src/at4lara/lib/__pycache__/loggers.cpython-312.pyc",

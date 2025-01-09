@@ -623,6 +623,8 @@ does
 deepLearning
 development
 device
+depth
+deviceController
 trXYZ
 to
 tBf
@@ -798,6 +800,7 @@ gold
 generated
 goals
 github
+goes
 bXYZ
 bTRC
 br
@@ -1154,6 +1157,7 @@ collaborative
 contain
 core
 concrete
+class
 enUS
 eK
 eH
@@ -1883,6 +1887,7 @@ powering
 platform
 practices
 problem
+prototype
 uq
 uc
 ukX
@@ -2551,6 +2556,7 @@ Vehicle
 Vidhya
 Version
 VentureBeat
+VonNeumannDesignPatternDiagram
 Fo
 Fd
 Fa
@@ -3831,6 +3837,7 @@ kroki
 kerkoapp
 kerko
 knowledge
+kView
 qtk
 qwW
 qx
