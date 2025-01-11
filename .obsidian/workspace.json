@@ -167,6 +167,7 @@
   },
   "active": "22eaa1a8078e37d6",
   "lastOpenFiles": [
+    "src/proto/__init__.py",
     "src/proto/__pycache__/deviceController.cpython-312.pyc",
     "src/proto/__pycache__",
     "src/at4lara/__pycache__/config.cpython-312.pyc",
@@ -177,7 +178,6 @@
     "src/at4lara/__pycache__/__init__.cpython-312.pyc",
     "src/at4lara/__pycache__",
     "src/at4lara/config.py",
-    "src/proto/deviceController.py",
     "design/research/potential4includingAsTestDataOrReferenceResearch/AI-ML-N-CollectiveKnowledge-CollectiveMind.md",
     "design/Models/module.md",
     "design/research/potential4includingAsTestDataOrReferenceResearch/thermodynamicsHistoryNexperiments.md",

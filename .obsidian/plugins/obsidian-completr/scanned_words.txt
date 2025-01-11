@@ -138,6 +138,7 @@ IntechOpen
 Implement
 Includes
 Interactive
+ID
 PROFILE
 PQg
 PA
@@ -368,6 +369,8 @@ mind
 mlops
 module
 multiple
+matches
+main
 XYZ
 Xu
 XC
@@ -526,6 +529,8 @@ automations
 automatically
 article
 augmented
+allowed
+appropriate
 desc
 dv
 dt
@@ -625,6 +630,10 @@ development
 device
 depth
 deviceController
+dir
+deviceControllerID
+deviceClassID
+deviceID
 trXYZ
 to
 tBf
@@ -983,6 +992,7 @@ reproducibility
 royalsocietypublishing
 rsta
 reached
+range
 wtpt
 wy
 wDJ
@@ -1059,6 +1069,8 @@ words
 written
 writing
 workflow
+within
+which
 cprt
 cY
 cT
@@ -1156,8 +1168,9 @@ costs
 collaborative
 contain
 core
-concrete
 class
+correct
+concreteDeviceID
 enUS
 eK
 eH
@@ -1251,6 +1264,9 @@ everyone
 efficient
 enterprise
 effect
+exist
+extended
+exists
 AQq
 AQaq
 Ao
@@ -1670,6 +1686,8 @@ interfaces
 intelligence
 intelligent
 instances
+instance
+included
 Ns
 NX
 Nc
@@ -1888,6 +1906,8 @@ platform
 practices
 problem
 prototype
+private
+protected
 uq
 uc
 ukX
@@ -1959,6 +1979,7 @@ usable
 underground
 unearthing
 unified
+underscore
 sM
 swW
 snL
@@ -2112,6 +2133,8 @@ secrets
 small
 success
 synergy
+single
+supported
 vl
 va
 vf
@@ -2174,6 +2197,9 @@ viable
 views
 via
 view
+validation
+variables
+valid
 lY
 lx
 lR
@@ -4056,7 +4082,6 @@ Collect
 Collective
 Controller
 Can
-CRUD
 Complete
 Chemistry
 Cycle

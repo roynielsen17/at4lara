@@ -2,8 +2,6 @@
 """
 prototyping the device controller for modules of the at4lara machine.
 
-@author: Roy Nielsen
-@note Initial working model: 1/2/2021
 """
 #--- Native python libraries
 import os
@@ -18,6 +16,16 @@ sys.path.append("..")
 
 from at4lara.lib.loggers import CyLogger
 from at4lara.lib.loggers import LogPriority as lp
+
+###############################################################################
+# Exception setup
+
+class NotAValidDeviceError(Exception):
+    """
+    Custom Exception
+    """
+    def __init__(self,*args,**kwargs):
+        Exception.__init__(self,*args,**kwargs)
 
 ###############################################################################
 
@@ -64,12 +72,23 @@ class DeviceController(object):
     def validateDevice(self, device=""):
         """
         """
-        pass
+        status = False
+        if isinstance(device, str):
+            status = True
+        else:
+            raise NotAValidDeviceError("Sorry, you have not supplied a valid device")
+        return status
 
     def addDevice(self, device):
         """
         """
-        pass
+        if self.validateDevice(device):
+            self.devices[device] = device
+        
+    def removeDevice(self, device):
+	    """
+	    """
+	    pass
 
     def printControllerDeviceState(self, logger=False, console=False, message = ""):
         """
@@ -140,6 +159,15 @@ class DeviceController(object):
             self.logger(logger, str(modules))
         if console:
             print(str(modules))
+
+    def printModuleDevices(self, logger=False, console=False):
+        """
+        """
+        if self.devices:
+            if logger:
+                self.logger(logger, str(self.devices))
+            if console:
+                print(str(self.devices))
 
 
 ###############################################################################
@@ -230,7 +258,6 @@ if __name__ == "__main__":
 
     logger = CyLogger(level=level)
     logger.initializeLogs(filename="moduleDeviceController")
-
 
     #####
     # Before attempt to run
