@@ -1,5 +1,0 @@
----
-id: 01JHGKDSRT6J6WE082QAGE21XZ
-created: 2025-01-13T12:49
-updated: 2025-01-13T12:49
----

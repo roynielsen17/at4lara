@@ -59,6 +59,9 @@ Journal
 Jobs
 Joana
 JGM
+JHGKE
+JHGKDSRT
+JHGKDEVKKHBX
 ICC
 IzK
 IT
@@ -247,6 +250,7 @@ Platform
 Pareto
 Possibly
 Purpose
+PRZEQ
 mntrRGB
 mluc
 mS
@@ -1515,6 +1519,7 @@ Window
 Why
 WALIA
 World
+WDSX
 KE
 Ki
 KJw
@@ -2583,6 +2588,7 @@ Vidhya
 Version
 VentureBeat
 VonNeumannDesignPatternDiagram
+VCZZTQ
 Fo
 Fd
 Fa
@@ -4270,6 +4276,7 @@ QtWidgets
 QtAds
 QScintilla
 QtPy
+QAGE
 oQ
 ons
 oM
