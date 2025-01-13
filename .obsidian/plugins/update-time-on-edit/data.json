@@ -21,6 +21,9 @@
     "design/randomDesignThoughts.md": "a5f555f6679f947d7a6ec67d4008b466edae024cb1228750907364ef245cd63e",
     "design/aboutTools/copyTabTitleURL/copyTabTitleURL.md": "5a67fe22324167d1f5a96dfc20add26e49bd7293ca8495e0a41aba129a73b539",
     "design/research/potential4includingAsTestDataOrReferenceResearch/AI-ML-N-CollectiveKnowledge-CollectiveMind.md": "a8b83c1a93e27e3ef805e3d8fce699272b584713ba95c03b12415b2dfa4aea6b",
-    "design/research/potential4includingAsTestDataOrReferenceResearch/thermodynamicsHistoryNexperiments.md": "43b1d419b4aed6965d44651eded9878e368de132bc342712cc589bfe5868daeb"
+    "design/research/potential4includingAsTestDataOrReferenceResearch/thermodynamicsHistoryNexperiments.md": "43b1d419b4aed6965d44651eded9878e368de132bc342712cc589bfe5868daeb",
+    "src/at4lara/ui/README.md": "9b912e724e8d0a084343bae6b49dd61ac55d1e07a1a6e1ec0398ef8dc92cb0d0",
+    "src/at4lara/ui/gui/README.md": "0db7d38aa677eb87779bb509446b67f2a932a4b44b7badc33d2c54d810d3ae72",
+    "src/at4lara/ui/cui/README.md": "586dd64d384466fc0bd6adbed8af79f3a75931e68e275f0756ee73b1c70887bc"
   }
 }
