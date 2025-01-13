@@ -22,16 +22,6 @@
     "design/aboutTools/copyTabTitleURL/copyTabTitleURL.md": "5a67fe22324167d1f5a96dfc20add26e49bd7293ca8495e0a41aba129a73b539",
     "design/research/potential4includingAsTestDataOrReferenceResearch/AI-ML-N-CollectiveKnowledge-CollectiveMind.md": "a8b83c1a93e27e3ef805e3d8fce699272b584713ba95c03b12415b2dfa4aea6b",
     "design/research/potential4includingAsTestDataOrReferenceResearch/thermodynamicsHistoryNexperiments.md": "43b1d419b4aed6965d44651eded9878e368de132bc342712cc589bfe5868daeb",
-    "src/at4lara/state/README.md": "cd3872a4a89b6f80396b47cf558bcdbb4fbb90544daaab65e54b1c658e2cda53",
-    "src/at4lara/api/README.md": "43b76a286cf5448daf446eb067c0edb4c4bb6d209456984d738ff2f1ce641f65",
-    "src/at4lara/api/rest/README.md": "9e3cdffd0014b2cbc052cf99020df3c4d32ea001c50ff7a7fd9bde5aa85cfa95",
-    "src/at4lara/api/io/README.md": "6052811ecec7466d92c70e70ae4a5848d4e13e1b4ad9b7abc58b17b64a4bdb37",
-    "src/at4lara/crud/README.md": "037eabb8c56e2e2a65cbf1325f8508325f2467e27bfb648284d5fc2e03d9fa66",
-    "src/at4lara/crud/localfilesystem/README.md": "fdb664839f23ff69181c46c0916616abe6c90d7d328f6aded58789f85e73dbac",
-    "src/at4lara/crud/sqlite/README.md": "7f84bca925471dcba805b89b8843bb913beb34902b72eecc3c1de544eeab5b89",
-    "src/at4lara/state/view/README.md": "0b087080cca353a1ca035afa24d28c3318609964d00a3413c9dbf43fe19200e3",
-    "src/at4lara/state/api/README.md": "be3e8d8b539f6bce3ccff8b33237f9223b4296ea3d0df2549474845e671747b4",
-    "src/at4lara/state/models/README.md": "90184b9363ee971d02385458807f76043a2fb7f790cdaa49ab3ac90abd49ebe1",
-    "src/at4lara/state/states/README.md": "af78553c487b103bf74c7d0bada5991eaed43ca54dd89d15ac0bf60db4ea1ad0"
+    "src/at4lara/controller/README.md": "dcb4ccea54db021fd210aa9135f8b22d5f11d1bbde5134d9c52b771eb490c395"
   }
 }

@@ -63,6 +63,8 @@ JHGKE
 JHGKDSRT
 JHGKDEVKKHBX
 JHGPFF
+JHGSH
+JHGSQSZ
 ICC
 IzK
 IT
@@ -376,6 +378,7 @@ module
 multiple
 matches
 main
+molded
 XYZ
 Xu
 XC
@@ -1354,6 +1357,7 @@ Automated
 Authentic
 Anomaly
 AK
+AQC
 hy
 hV
 hVr
@@ -1595,6 +1599,7 @@ Kerko
 KDnuggets
 Knowledge
 Kerkoapp
+Kind
 iF
 ik
 io
@@ -2142,6 +2147,7 @@ success
 synergy
 single
 supported
+stretched
 vl
 va
 vf
@@ -3202,6 +3208,7 @@ DL
 Designing
 Detection
 Devices
+DXXV
 Hn
 Hc
 HW
@@ -3468,6 +3475,7 @@ Github
 Görkem
 Genius
 Group
+GCXJXF
 YR
 YOv
 YQ
@@ -3718,6 +3726,7 @@ Scientist
 Star
 Sid
 State
+SFJG
 jL
 jxo
 jo
@@ -4188,6 +4197,7 @@ Trekhleb
 Towards
 TMXGAS
 Together
+TND
 QD
 Qk
 Qd
