@@ -69,7 +69,7 @@ class DeviceController(object):
         """
         self.concreteDeviceId = concreteDeviceId
         
-    def validateDevice(self, device=""):
+    def validateDeviceAdd(self, device=""):
         """
         """
         status = False
@@ -82,13 +82,27 @@ class DeviceController(object):
     def addDevice(self, device):
         """
         """
-        if self.validateDevice(device):
+        if self.validateDeviceAdd(device):
             self.devices[device] = device
-        
+    
+    def validateDeviceRemoval(self, device):
+        """
+        """
+        status = False
+        SpecialDevices = ["specialFileCRUD", "specialPrint", "specialIO", "specialGUI"]
+        if device not in SpecialDevices and isinstance(device, str):
+            status = True
+        elif device in SpecialDevices:
+            raise SpecialDevicesCannotUnloadError("Cannot unload Sepecial Devices")
+        else:
+            raise NotAValidDeviceError("Sorry, you have not supplied a valid device")
+        return status
+
     def removeDevice(self, device):
-	    """
-	    """
-	    pass
+        """
+        """
+        if self.validateDeviceRemoval(device):
+            del self.devices[device]
 
     def printControllerDeviceState(self, logger=False, console=False, message = ""):
         """
@@ -140,7 +154,7 @@ class DeviceController(object):
             self.logger.log(logger, "deviceClassId: " + str(self.deviceClassId))
             self.logger.log(logger, "deviceId: " + str(self.deviceId))
             self.logger.log(logger, "concreteDeviceId: " + str(self.concreteDeviceId))
-            self.logger.log(logger, "mainControllerId: " + str(self.mainControllerId))
+            self.lp.log(logger, "mainControllerId: " + str(self.mainControllerId))
         if console:
             print("deviceControllerId: " + str(self.deviceControllerId))
             print("deviceClassId: " + str(self.deviceClassId))
