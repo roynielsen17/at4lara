@@ -34,13 +34,6 @@ class SpecialDevicesCannotUnloadError(Exception):
     def __init__(self,*args,**kwargs):
         Exception.__init__(self,*args,**kwargs)
 
-class ModuleNotYetReadyError(Exception):
-    """
-    Custom Exception
-    """
-    def __init__(self,*args,**kwargs):
-        Exception.__init__(self,*args,**kwargs)
-
 ###############################################################################
 
 class DeviceController(object):
@@ -62,9 +55,6 @@ class DeviceController(object):
         self.deviceId = None
         self.concreteDeviceId = None
         self.mainControllerId = None
-
-        raise ModuleNotYetReadyError("Sorry, Module has no functionality yet...")
-
 
     def setControllerId(self, controllerId):
         """

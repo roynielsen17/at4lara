@@ -62,6 +62,7 @@ JGM
 JHGKE
 JHGKDSRT
 JHGKDEVKKHBX
+JHGPFF
 ICC
 IzK
 IT
@@ -1352,6 +1353,7 @@ Arslan
 Automated
 Authentic
 Anomaly
+AK
 hy
 hV
 hVr
