@@ -27,6 +27,13 @@ class NotAValidDeviceError(Exception):
     def __init__(self,*args,**kwargs):
         Exception.__init__(self,*args,**kwargs)
 
+class SpecialDevicesCannotUnloadError(Exception):
+    """
+    Custom Exception
+    """
+    def __init__(self,*args,**kwargs):
+        Exception.__init__(self,*args,**kwargs)
+
 ###############################################################################
 
 class DeviceController(object):
