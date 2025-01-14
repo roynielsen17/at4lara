@@ -22,6 +22,7 @@
     "design/aboutTools/copyTabTitleURL/copyTabTitleURL.md": "5a67fe22324167d1f5a96dfc20add26e49bd7293ca8495e0a41aba129a73b539",
     "design/research/potential4includingAsTestDataOrReferenceResearch/AI-ML-N-CollectiveKnowledge-CollectiveMind.md": "a8b83c1a93e27e3ef805e3d8fce699272b584713ba95c03b12415b2dfa4aea6b",
     "design/research/potential4includingAsTestDataOrReferenceResearch/thermodynamicsHistoryNexperiments.md": "43b1d419b4aed6965d44651eded9878e368de132bc342712cc589bfe5868daeb",
-    "src/at4lara/controller/README.md": "dcb4ccea54db021fd210aa9135f8b22d5f11d1bbde5134d9c52b771eb490c395"
+    "src/at4lara/controller/README.md": "dcb4ccea54db021fd210aa9135f8b22d5f11d1bbde5134d9c52b771eb490c395",
+    "src/at4lara/models/README.md": "e7af1e51a1134ef828a95e9753a135e0af97b66e79ad772b045f5d62a7fc9dc8"
   }
 }

@@ -10,7 +10,7 @@ import traceback
 
 #####
 # Include the parent project directory in the PYTHONPATH
-appendDir = "/".join(os.path.abspath(os.path.dirname(__file__)).split('/')[:-1])
+appendDir = "/".join(os.path.abspath(os.path.dirname(__file__)).split('/')[:-3])
 sys.path.append(appendDir)
 
 # --- Non-native python libraries in this source tree
