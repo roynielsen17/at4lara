@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "design/Models/module.md",
+                "file": "src/at4lara/models/prog/README.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "module"
+              "title": "README"
             }
           }
         ]
@@ -167,20 +167,31 @@
   },
   "active": "22eaa1a8078e37d6",
   "lastOpenFiles": [
-    "src/at4lara/models/prog/__init__.py",
+    "src/at4lara/models/prog/examples/menu.py",
+    "src/at4lara/models/prog/examples/REAME.md",
+    "src/at4lara/models/prog/examples/__init__.py",
+    "src/at4lara/models/prog/examples",
+    "src/at4lara/models/prog/program/lib/libHelperExceptions.py",
+    "src/at4lara/models/prog/program/lib/PlatformFoundErrors.py",
+    "src/at4lara/models/prog/program/lib/composite_menu.py",
+    "src/at4lara/models/prog/program/lib/spinners.py",
+    "src/at4lara/models/prog/program/lib/__pycache__/CheckApplicable.cpython-312.pyc",
+    "src/at4lara/__pycache__/config.cpython-312.pyc",
+    "src/at4lara/__pycache__",
+    "src/at4lara/models/prog/program/lib/__pycache__/environment.cpython-312.pyc",
+    "src/at4lara/models/prog/tests/README.md",
+    "src/at4lara/models/prog/program/view/README.md",
+    "src/at4lara/models/prog/program/state/README.md",
+    "src/at4lara/models/prog/program/models/README.md",
+    "src/at4lara/models/prog/program/lib/README.md",
+    "src/at4lara/models/prog/program/crud/README.md",
+    "src/at4lara/models/prog/program/controller/README.md",
+    "src/at4lara/models/prog/program/api/REAME.md",
+    "src/at4lara/models/prog/program/README.md",
+    "design/Models/module.md",
     "src/at4lara/models/prog/README.md",
-    "src/at4lara/models/prog/baseDeviceController.py",
-    "src/at4lara/models/prog",
-    "src/at4lara/models/refs/RisDataModel.py",
-    "src/at4lara/models/baseDeviceController.py",
     "src/at4lara/models/README.md",
-    "src/at4lara/controller/__init__.py",
     "src/at4lara/controller/README.md",
-    "src/at4lara/controller",
-    "src/at4lara/models/RisDataModel.py",
-    "src/at4lara/models/refs/__pycache__/RisDataModel.cpython-312.pyc",
-    "src/at4lara/models/__pycache__/__init__.cpython-312.pyc",
-    "src/at4lara/models/__pycache__",
     "src/at4lara/controller/VonNeumannDesignPatternDiagram.md",
     "src/at4lara/crud/sqlite/README.md",
     "src/at4lara/view/gui/README.md",
@@ -191,17 +202,6 @@
     "src/at4lara/state/models/README.md",
     "src/at4lara/state/api/README.md",
     "src/at4lara/state/README.md",
-    "src/at4lara/crud/localfilesystem/README.md",
-    "src/at4lara/crud/README.md",
-    "src/at4lara/api/rest/README.md",
-    "src/at4lara/api/io/README.md",
-    "src/at4lara/api/README.md",
-    "design/Models/module.md",
-    "src/at4lara/state/__init__.md",
-    "src/at4lara/ui/README.md",
-    "src/at4lara/ui/gui/README.md",
-    "src/at4lara/ui/cui/README.md",
-    "design/research/potential4includingAsTestDataOrReferenceResearch/AI-ML-N-CollectiveKnowledge-CollectiveMind.md",
-    "design/research/potential4includingAsTestDataOrReferenceResearch/thermodynamicsHistoryNexperiments.md"
+    "src/at4lara/crud/localfilesystem/README.md"
   ]
 }
