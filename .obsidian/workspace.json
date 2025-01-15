@@ -20,23 +20,8 @@
               "icon": "lucide-file",
               "title": "module"
             }
-          },
-          {
-            "id": "044b4b1677eb26cc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "src/at4lara/models/README.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "README"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -180,20 +165,22 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "044b4b1677eb26cc",
+  "active": "22eaa1a8078e37d6",
   "lastOpenFiles": [
-    "src/at4lara/controller/README.md",
-    "src/at4lara/models/README.md",
+    "src/at4lara/models/prog/__init__.py",
+    "src/at4lara/models/prog/README.md",
+    "src/at4lara/models/prog/baseDeviceController.py",
+    "src/at4lara/models/prog",
+    "src/at4lara/models/refs/RisDataModel.py",
     "src/at4lara/models/baseDeviceController.py",
+    "src/at4lara/models/README.md",
+    "src/at4lara/controller/__init__.py",
+    "src/at4lara/controller/README.md",
+    "src/at4lara/controller",
+    "src/at4lara/models/RisDataModel.py",
     "src/at4lara/models/refs/__pycache__/RisDataModel.cpython-312.pyc",
     "src/at4lara/models/__pycache__/__init__.cpython-312.pyc",
     "src/at4lara/models/__pycache__",
-    "src/at4lara/models/refs/RisDataModel.py",
-    "src/at4lara/models/refs/__pycache__/__init__.cpython-312.pyc",
-    "src/at4lara/models/refs/__pycache__/RisRefs.cpython-312.pyc",
-    "src/at4lara/models/refs/__pycache__",
-    "src/at4lara/__pycache__/config.cpython-312.pyc",
-    "src/at4lara/__pycache__/__init__.cpython-312.pyc",
     "src/at4lara/controller/VonNeumannDesignPatternDiagram.md",
     "src/at4lara/crud/sqlite/README.md",
     "src/at4lara/view/gui/README.md",
@@ -215,8 +202,6 @@
     "src/at4lara/ui/gui/README.md",
     "src/at4lara/ui/cui/README.md",
     "design/research/potential4includingAsTestDataOrReferenceResearch/AI-ML-N-CollectiveKnowledge-CollectiveMind.md",
-    "design/research/potential4includingAsTestDataOrReferenceResearch/thermodynamicsHistoryNexperiments.md",
-    "design/SequenceDiagrams/SequenceDiagrams.md",
-    "design/UseCase/UseCaseDiagrams.md"
+    "design/research/potential4includingAsTestDataOrReferenceResearch/thermodynamicsHistoryNexperiments.md"
   ]
 }
