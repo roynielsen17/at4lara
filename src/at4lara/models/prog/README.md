@@ -1,8 +1,8 @@
 ---
 id: 01JHN7632MAY4Y4Q057BMX6AAG
 created: 2025-01-15T07:51
-updated: 2025-01-16T09:31
-modified: 2025-01-16T09:31:54-07:00
+updated: 2025-01-15T13:46
+modified: 2025-01-15T13:46:42-07:00
 ---
 # Program Models
 
@@ -29,3 +29,5 @@ Each device should have one of these.
 ## Tests
 
 ## Examples
+
+Examples of bits of code in the program tree.  Provided as able, not a priority of the project.
