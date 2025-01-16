@@ -20,8 +20,51 @@
               "icon": "lucide-file",
               "title": "README"
             }
+          },
+          {
+            "id": "9960d638592e8069",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "src/at4lara/models/prog/examples/REAME.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "REAME"
+            }
+          },
+          {
+            "id": "4428695147244bc2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "src/at4lara/models/prog/prototype/README.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "README"
+            }
+          },
+          {
+            "id": "828bd81f000661c9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "src/at4lara/models/prog/program/README.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "README"
+            }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -165,31 +208,31 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "22eaa1a8078e37d6",
+  "active": "6392ff44340a8adb",
   "lastOpenFiles": [
-    "src/at4lara/models/prog/examples/menu.py",
+    "src/at4lara/models/prog/prototype/README.md",
+    "src/at4lara/models/prog/program/README.md",
+    "src/at4lara/models/prog/program/__init__.py",
     "src/at4lara/models/prog/examples/REAME.md",
-    "src/at4lara/models/prog/examples/__init__.py",
-    "src/at4lara/models/prog/examples",
-    "src/at4lara/models/prog/program/lib/libHelperExceptions.py",
-    "src/at4lara/models/prog/program/lib/PlatformFoundErrors.py",
-    "src/at4lara/models/prog/program/lib/composite_menu.py",
-    "src/at4lara/models/prog/program/lib/spinners.py",
-    "src/at4lara/models/prog/program/lib/__pycache__/CheckApplicable.cpython-312.pyc",
-    "src/at4lara/__pycache__/config.cpython-312.pyc",
-    "src/at4lara/__pycache__",
-    "src/at4lara/models/prog/program/lib/__pycache__/environment.cpython-312.pyc",
+    "src/at4lara/models/prog/prototype/__init__.py",
+    "src/at4lara/models/prog/prototype",
+    "src/at4lara/models/prog/README.md",
+    "src/at4lara/models/prog/program/lib/__pycache__/composite_menu.cpython-312.pyc",
+    "src/at4lara/models/prog/program/__pycache__/config.cpython-312.pyc",
+    "src/at4lara/models/prog/program/__pycache__",
+    "src/at4lara/models/prog/program/lib/__pycache__/singleton.cpython-312.pyc",
+    "src/at4lara/models/prog/program/lib/__pycache__/run_commands.cpython-312.pyc",
+    "src/at4lara/models/prog/program/lib/__pycache__/loggers.cpython-312.pyc",
+    "src/at4lara/models/prog/program/lib/__pycache__/__init__.cpython-312.pyc",
     "src/at4lara/models/prog/tests/README.md",
     "src/at4lara/models/prog/program/view/README.md",
     "src/at4lara/models/prog/program/state/README.md",
     "src/at4lara/models/prog/program/models/README.md",
-    "src/at4lara/models/prog/program/lib/README.md",
     "src/at4lara/models/prog/program/crud/README.md",
     "src/at4lara/models/prog/program/controller/README.md",
     "src/at4lara/models/prog/program/api/REAME.md",
-    "src/at4lara/models/prog/program/README.md",
+    "src/at4lara/models/prog/program/lib/README.md",
     "design/Models/module.md",
-    "src/at4lara/models/prog/README.md",
     "src/at4lara/models/README.md",
     "src/at4lara/controller/README.md",
     "src/at4lara/controller/VonNeumannDesignPatternDiagram.md",
@@ -201,7 +244,6 @@
     "src/at4lara/state/states/README.md",
     "src/at4lara/state/models/README.md",
     "src/at4lara/state/api/README.md",
-    "src/at4lara/state/README.md",
-    "src/at4lara/crud/localfilesystem/README.md"
+    "src/at4lara/state/README.md"
   ]
 }
