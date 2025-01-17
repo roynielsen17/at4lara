@@ -70,6 +70,8 @@ JHN
 JHNM
 JHQWKT
 JHQY
+JHNBQFYXXY
+JHR
 ICC
 IzK
 IT
@@ -261,6 +263,7 @@ Purpose
 PRZEQ
 Program
 Provided
+Prototype
 mntrRGB
 mluc
 mS
@@ -914,6 +917,7 @@ behavior
 been
 base
 bits
+being
 rTRC
 rfV
 rW
@@ -1014,6 +1018,8 @@ royalsocietypublishing
 rsta
 reached
 range
+released
+ramdisk
 wtpt
 wy
 wDJ
@@ -1094,6 +1100,9 @@ within
 which
 watching
 while
+without
+working
+wants
 cprt
 cY
 cT
@@ -1294,6 +1303,7 @@ effect
 exist
 extended
 exists
+effort
 AQq
 AQaq
 Ao
@@ -1379,6 +1389,7 @@ AK
 AQC
 AAG
 API
+AF
 hy
 hV
 hVr
@@ -1455,6 +1466,7 @@ history
 historyOfScience
 helps
 hardware
+here
 WY
 WbT
 Wd
@@ -1721,6 +1733,8 @@ intelligent
 instances
 instance
 included
+imported
+import
 Ns
 NX
 Nc
@@ -2177,6 +2191,8 @@ state
 signals
 slots
 should
+stays
+stonix
 vl
 va
 vf
@@ -2328,6 +2344,8 @@ layers
 loop
 long
 lib
+level
+lara
 fr
 fD
 fd
@@ -2901,6 +2919,7 @@ MRINAL
 Mind
 Microsoft
 MAY
+MRMH
 nE
 nuH
 nBL
@@ -2987,6 +3006,7 @@ newer
 needed
 neptune
 necessary
+name
 OU
 Oe
 OZ
@@ -3070,6 +3090,7 @@ Ohio
 OVITO
 Own
 Oleksii
+Otherwise
 Ed
 Em
 EG
@@ -3248,6 +3269,7 @@ Devices
 DXXV
 Device
 Default
+DJZSC
 Hn
 Hc
 HW
@@ -3594,6 +3616,7 @@ YouTube
 YQQMH
 Your
 You
+YPRYKHHNM
 xf
 xOY
 xR
@@ -4054,6 +4077,7 @@ ZK
 Zotero
 ZeroMQ
 ZKEYRMADV
+ZDVGX
 Cr
 CJ
 Cc
@@ -4418,6 +4442,7 @@ org
 objective
 octoml
 optimize
+order
 Rr
 Rg
 RRU
@@ -4516,6 +4541,7 @@ Role
 Responsibilities
 RTQP
 RPW
+Root
 Br
 BT
 Bn

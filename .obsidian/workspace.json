@@ -8,54 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "22eaa1a8078e37d6",
+            "id": "d115b0aa3f1f5186",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/at4lara/models/prog/README.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "README"
-            }
-          },
-          {
-            "id": "9960d638592e8069",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "src/at4lara/models/prog/examples/REAME.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "REAME"
-            }
-          },
-          {
-            "id": "4428695147244bc2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "src/at4lara/models/prog/prototype/README.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "README"
-            }
-          },
-          {
-            "id": "828bd81f000661c9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "src/at4lara/models/prog/program/README.md",
+                "file": "src/at4lara/models/prog/program/api/rest/README.md",
                 "mode": "source",
                 "source": true
               },
@@ -63,8 +21,7 @@
               "title": "README"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -208,42 +165,42 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "6392ff44340a8adb",
+  "active": "d115b0aa3f1f5186",
   "lastOpenFiles": [
-    "src/at4lara/models/prog/prototype/README.md",
+    "src/at4lara/models/prog/program/api/REAME.md",
+    "src/at4lara/models/prog/clean.sh",
+    "src/at4lara/models/prog/program/clean.sh",
+    "src/at4lara/models/prog/program/view/gui/__init__.py",
+    "src/at4lara/models/prog/program/view/gui/README.md",
+    "src/at4lara/models/prog/program/view/cui/__init__.py",
+    "src/at4lara/models/prog/program/view/cui/README.md",
+    "src/at4lara/models/prog/program/view/gui",
+    "src/at4lara/models/prog/program/view/cui",
+    "src/at4lara/models/prog/program/crud/localfilesystem/README.md",
+    "src/at4lara/models/prog/program/crud/localfilesystem/__init__.py",
+    "src/at4lara/models/prog/program/crud/localfilesystem/__init",
+    "src/at4lara/models/prog/program/crud/sqlite/__init__.py",
+    "src/at4lara/models/prog/program/crud/sqlite/README.md",
+    "src/at4lara/models/prog/program/crud/sqlite",
+    "src/at4lara/models/prog/program/api/rest/README.md",
+    "src/at4lara/models/prog/program/api/io/README.md",
     "src/at4lara/models/prog/program/README.md",
-    "src/at4lara/models/prog/program/__init__.py",
+    "src/at4lara/models/prog/examples/README.md",
     "src/at4lara/models/prog/examples/REAME.md",
-    "src/at4lara/models/prog/prototype/__init__.py",
-    "src/at4lara/models/prog/prototype",
     "src/at4lara/models/prog/README.md",
-    "src/at4lara/models/prog/program/lib/__pycache__/composite_menu.cpython-312.pyc",
-    "src/at4lara/models/prog/program/__pycache__/config.cpython-312.pyc",
-    "src/at4lara/models/prog/program/__pycache__",
-    "src/at4lara/models/prog/program/lib/__pycache__/singleton.cpython-312.pyc",
-    "src/at4lara/models/prog/program/lib/__pycache__/run_commands.cpython-312.pyc",
-    "src/at4lara/models/prog/program/lib/__pycache__/loggers.cpython-312.pyc",
-    "src/at4lara/models/prog/program/lib/__pycache__/__init__.cpython-312.pyc",
+    "src/at4lara/models/prog/prototype/README.md",
     "src/at4lara/models/prog/tests/README.md",
     "src/at4lara/models/prog/program/view/README.md",
     "src/at4lara/models/prog/program/state/README.md",
     "src/at4lara/models/prog/program/models/README.md",
     "src/at4lara/models/prog/program/crud/README.md",
     "src/at4lara/models/prog/program/controller/README.md",
-    "src/at4lara/models/prog/program/api/REAME.md",
     "src/at4lara/models/prog/program/lib/README.md",
     "design/Models/module.md",
     "src/at4lara/models/README.md",
     "src/at4lara/controller/README.md",
     "src/at4lara/controller/VonNeumannDesignPatternDiagram.md",
     "src/at4lara/crud/sqlite/README.md",
-    "src/at4lara/view/gui/README.md",
-    "src/at4lara/view/cui/README.md",
-    "src/at4lara/view/README.md",
-    "src/at4lara/state/view/README.md",
-    "src/at4lara/state/states/README.md",
-    "src/at4lara/state/models/README.md",
-    "src/at4lara/state/api/README.md",
-    "src/at4lara/state/README.md"
+    "src/at4lara/view/gui/README.md"
   ]
 }
