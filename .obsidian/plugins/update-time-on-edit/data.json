@@ -35,6 +35,8 @@
     "src/at4lara/models/prog/program/api/mqueue/zmq/README.md": "dac528cab2ec188c7783416b789aca444dca5fc0120248776fbd970517eec789",
     "src/at4lara/models/prog/program/api/mqueue/rabbitmq/README.md": "6e520a9869a5d407017205db2d8ad8ccfc4b288817f248caaff487642bcdd091",
     "src/at4lara/models/prog/program/api/mqueue/mqtt/README.md": "066983861d6ffcc730858170a156c4c8d03058a3d893801a18aeeaef08ec2cf9",
-    "src/at4lara/crud/README.md": "489b32ba3a60701a6c2d461c6504aac96a8171fb2bf54293bf5f187c873af675"
+    "src/at4lara/crud/README.md": "489b32ba3a60701a6c2d461c6504aac96a8171fb2bf54293bf5f187c873af675",
+    "src/at4lara/api/rest/README.md": "2d55de257ef48b80cfe8d060c0de0bb5d998f3f5e7cc962d0955beb20d246c74",
+    "src/examples/README.md": "6861be9f26c021c9897cc678d8825a32259f6f2b74d702bd0ab046ec5425db37"
   }
 }
