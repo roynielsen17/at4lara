@@ -72,6 +72,7 @@ JHQWKT
 JHQY
 JHNBQFYXXY
 JHR
+JHSNAN
 ICC
 IzK
 IT
@@ -4542,6 +4543,7 @@ Responsibilities
 RTQP
 RPW
 Root
+RBMT
 Br
 BT
 Bn
