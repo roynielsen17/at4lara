@@ -12,7 +12,7 @@ import traceback
 
 from optparse import OptionParser, SUPPRESS_HELP, OptionValueError, Option
 
-sys.path.append("..")
+appendDir = "/".join(os.path.abspath(os.path.dirname(__file__)).split('/')[:-2])
 
 from at4lara.lib.loggers import CyLogger
 from at4lara.lib.loggers import LogPriority as lp
@@ -41,7 +41,7 @@ class DeviceController(object):
     """
 
     devices = {}
-    
+
     def __init__(self, logger):
 
         if logger:
@@ -53,14 +53,14 @@ class DeviceController(object):
         self.deviceControllerId = MainModelControllerId_00001
         self.deviceClassId = ModelClassId_00001
         self.deviceId = MainModelClassId_00001
-        self.concreteDeviceId = 00001
-        self.mainControllerId = 00001
+        self.concreteDeviceId = 0x00001
+        self.mainControllerId = 0x00001
 
     def setControllerId(self, controllerId):
         """
         """
         self.controllerId = controllerId
-        
+
     def setDeviceClassId(self, deviceClassId):
         """
         """
@@ -70,12 +70,12 @@ class DeviceController(object):
         """
         """
         self.deviceId = deviceId
-        
+
     def setConcreteDeviceId(self, concreteDeviceId):
         """
         """
         self.concreteDeviceId = concreteDeviceId
-        
+
     def validateDeviceAdd(self, device=""):
         """
         """
@@ -91,7 +91,7 @@ class DeviceController(object):
         """
         if self.validateDeviceAdd(device):
             self.devices[device] = device
-    
+
     def validateDeviceRemoval(self, device):
         """
         """
@@ -168,7 +168,7 @@ class DeviceController(object):
             print("deviceId: " + str(self.deviceId))
             print("concreteDeviceId: " + str(self.concreteDeviceId))
             print("mainControllerId: " + str(self.mainControllerId))
-    
+
     def printModuleMethods(self, logger=False, console=False):
         """
         """
