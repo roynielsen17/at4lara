@@ -8,20 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "d115b0aa3f1f5186",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "src/proto/Pyapp-kit/psygnal/README.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "README"
-            }
-          },
-          {
             "id": "5cb36c9a15cb45eb",
             "type": "leaf",
             "state": {
@@ -179,15 +165,15 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "d115b0aa3f1f5186",
+  "active": "5cb36c9a15cb45eb",
   "lastOpenFiles": [
     "src/proto/Pyapp-kit/psygnal/simple_psygnal_example-0.0.1.py",
+    "src/proto/Pyapp-kit/psygnal/README.md",
+    "src/proto/Pyapp-kit/README.md",
     "src/examples/simple_psygnal_example-0.0.1.py",
     "src/proto/Pyapp-kit/psygnal/simple_psygnal_example.py",
     "src/proto/Pyapp-kit/psygnal/example.py",
-    "src/proto/Pyapp-kit/README.md",
     "src/at4lara/controller/README.md",
-    "src/proto/Pyapp-kit/psygnal/README.md",
     "src/proto/Pyapp-kit/psygnal/__init__.py",
     "src/proto/Pyapp-kit/__init__.py",
     "src/proto/Pyapp-kit/psygnal",
@@ -195,7 +181,6 @@
     "src/at4lara/models/prog/program/api/io/README.md",
     "src/at4lara/models/prog/run_tests.py",
     "src/at4lara/models/prog/program/models/baseDeviceController.py",
-    "src/at4lara/models/prog/baseDeviceController.py",
     "src/examples/README.md",
     "src/at4lara/models/prog/program/api/mqueue/zmq/README.md",
     "src/at4lara/models/prog/program/api/mqueue/rabbitmq/README.md",
