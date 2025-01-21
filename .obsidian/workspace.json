@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/at4lara/models/prog/program/api/io/README.md",
-                "mode": "source",
+                "file": "src/proto/Pyapp-kit/psygnal/README.md",
+                "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
@@ -181,17 +181,21 @@
   },
   "active": "d115b0aa3f1f5186",
   "lastOpenFiles": [
+    "src/proto/Pyapp-kit/psygnal/simple_psygnal_example-0.0.1.py",
+    "src/examples/simple_psygnal_example-0.0.1.py",
+    "src/proto/Pyapp-kit/psygnal/simple_psygnal_example.py",
+    "src/proto/Pyapp-kit/psygnal/example.py",
+    "src/proto/Pyapp-kit/README.md",
+    "src/at4lara/controller/README.md",
+    "src/proto/Pyapp-kit/psygnal/README.md",
+    "src/proto/Pyapp-kit/psygnal/__init__.py",
+    "src/proto/Pyapp-kit/__init__.py",
+    "src/proto/Pyapp-kit/psygnal",
+    "src/proto/Pyapp-kit",
+    "src/at4lara/models/prog/program/api/io/README.md",
     "src/at4lara/models/prog/run_tests.py",
     "src/at4lara/models/prog/program/models/baseDeviceController.py",
     "src/at4lara/models/prog/baseDeviceController.py",
-    "src/at4lara/models/prog/program/baseDeviceController.py",
-    "src/at4lara/models/refs/__pycache__/__init__.cpython-312.pyc",
-    "src/at4lara/models/refs/__pycache__/RisRefs.cpython-312.pyc",
-    "src/at4lara/models/refs/__pycache__/RisDataModel.cpython-312.pyc",
-    "src/at4lara/models/refs/__pycache__",
-    "src/at4lara/models/__pycache__/__init__.cpython-312.pyc",
-    "src/at4lara/models/__pycache__",
-    "src/tests/__pycache__/test_loggers.cpython-312.pyc",
     "src/examples/README.md",
     "src/at4lara/models/prog/program/api/mqueue/zmq/README.md",
     "src/at4lara/models/prog/program/api/mqueue/rabbitmq/README.md",
@@ -209,13 +213,9 @@
     "src/at4lara/api/rest/README.md",
     "src/at4lara/models/prog/program/api/rest/README.md",
     "src/at4lara/models/prog/program/lib/README.md",
-    "src/at4lara/models/prog/program/api/io/README.md",
     "src/at4lara/models/README.md",
     "src/at4lara/models/prog/program/crud/README.md",
     "src/at4lara/models/prog/program/models/README.md",
-    "src/at4lara/models/prog/program/view/gui/README.md",
-    "src/at4lara/models/prog/program/view/cui/README.md",
-    "src/at4lara/models/prog/program/crud/sqlite/README.md",
-    "src/at4lara/models/prog/program/crud/localfilesystem/README.md"
+    "src/at4lara/models/prog/program/view/gui/README.md"
   ]
 }
