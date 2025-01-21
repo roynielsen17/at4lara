@@ -1,7 +1,7 @@
 ---
 id: 01JHNBS1S338CFKF7WW1PEMCZ1
 created: 2025-01-15T09:12
-updated: 2025-01-18T10:16
+updated: 2025-01-20T17:08
 modified: 2025-01-17T08:20:57-07:00
 ---
 # CRUD Device
