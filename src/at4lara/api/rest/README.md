@@ -1,7 +1,7 @@
 ---
 id: 01JHGNFCY7JAN47D6HKKCR1QAK
 created: 2025-01-13T13:25
-updated: 2025-01-18T10:13
+updated: 2025-01-20T17:10
 modified: 2025-01-17T10:55:06-07:00
 ---
 # REST  (<b><i>Re</i></b>presentational <b><i>S</i></b>tate <b><i>T</i></b>ransfer) interface
