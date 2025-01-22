@@ -167,6 +167,9 @@
   },
   "active": "5cb36c9a15cb45eb",
   "lastOpenFiles": [
+    "src/examples/simple_psygnal_example-0.0.3.py",
+    "src/proto/Pyapp-kit/psygnal/simple_psygnal_example-0.0.3.py",
+    "src/proto/Pyapp-kit/psygnal/simple_psygnal_example-0.0.2.py",
     "src/proto/Pyapp-kit/psygnal/simple_psygnal_example-0.0.1.py",
     "src/proto/Pyapp-kit/psygnal/README.md",
     "src/proto/Pyapp-kit/README.md",
@@ -179,8 +182,6 @@
     "src/proto/Pyapp-kit/psygnal",
     "src/proto/Pyapp-kit",
     "src/at4lara/models/prog/program/api/io/README.md",
-    "src/at4lara/models/prog/run_tests.py",
-    "src/at4lara/models/prog/program/models/baseDeviceController.py",
     "src/examples/README.md",
     "src/at4lara/models/prog/program/api/mqueue/zmq/README.md",
     "src/at4lara/models/prog/program/api/mqueue/rabbitmq/README.md",
