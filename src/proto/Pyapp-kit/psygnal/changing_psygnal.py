@@ -13,7 +13,7 @@ def on_change(new_value: str):
     print(f'Hi {new_value}!') # prints the new string - Hi {new_value}
 
 # Mock event loop to see the effect of new signals with 
-# new values - watch the signal handler handle the changing values!
+# new values - watch the signal handler handle the changing values
 count = 0
 my_input = ""
 while count < 5:
