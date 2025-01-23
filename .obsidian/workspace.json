@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/at4lara/models/prog/examples/README.md",
+                "file": "src/proto/README.md",
                 "mode": "source",
                 "source": true
               },
@@ -167,6 +167,11 @@
   },
   "active": "5cb36c9a15cb45eb",
   "lastOpenFiles": [
+    "src/at4lara/models/prog/prototype/README.md",
+    "src/proto/README.md",
+    "README.md",
+    "src/proto/__init__.py",
+    "src/at4lara/models/prog/examples/README.md",
     "src/proto/Pyapp-kit/psygnal/changing_psygnal.py",
     "src/proto/Pyapp-kit/psygnal/changing_psygnal",
     "src/proto/Pyapp-kit/psygnal/simple_psygnal_example-0.0.4.py",
@@ -178,9 +183,7 @@
     "src/proto/Pyapp-kit/README.md",
     "src/examples/simple_psygnal_example-0.0.1.py",
     "src/proto/Pyapp-kit/psygnal/simple_psygnal_example.py",
-    "src/proto/Pyapp-kit/psygnal/example.py",
     "src/at4lara/controller/README.md",
-    "src/proto/Pyapp-kit/psygnal/__init__.py",
     "src/at4lara/models/prog/program/api/io/README.md",
     "src/examples/README.md",
     "src/at4lara/models/prog/program/api/mqueue/zmq/README.md",
@@ -192,7 +195,6 @@
     "src/at4lara/api/mqueue/rabbitmq/README.md",
     "src/at4lara/api/mqueue/mqtt/README.md",
     "src/at4lara/api/mqueue/README.md",
-    "src/at4lara/models/prog/examples/README.md",
     "src/at4lara/models/prog/program/api/REAME.md",
     "src/examples/Untitled.md",
     "src/at4lara/crud/README.md",
@@ -200,8 +202,6 @@
     "src/at4lara/models/prog/program/api/rest/README.md",
     "src/at4lara/models/prog/program/lib/README.md",
     "src/at4lara/models/README.md",
-    "src/at4lara/models/prog/program/crud/README.md",
-    "src/at4lara/models/prog/program/models/README.md",
-    "src/at4lara/models/prog/program/view/gui/README.md"
+    "src/at4lara/models/prog/program/crud/README.md"
   ]
 }

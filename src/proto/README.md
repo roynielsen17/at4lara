@@ -1,10 +1,10 @@
 ---
-id: 01JHQWKT83CMGP3D5TM11RPW06
-created: 2025-01-16T08:44
-updated: 2025-01-23T09:06
-modified: 2025-01-23T09:06:24-07:00
+id: 01JJ9QDSGEYCQAKBZEH5ZRVP8X
+created: 2025-01-23T07:00
+updated: 2025-01-23T09:03
+modified: 2025-01-23T09:03:05-07:00
 ---
-# Prototype
+# proto diretory README.md
 
 Examples, or prototypes on using parts or sections of functionality of the program code.  None of this code can be relied upon to be stable, although there is an outside chance it might be, but might become broken at any time due to attempts to improve functionality.
 

@@ -1,8 +1,8 @@
 ---
 id: 01HPT9HVPCY8RK4TM1TRCG6NAC
 created: 2024-02-07T20:09
-updated: 2025-01-02T11:07
-modified: 2025-01-02T11:07:39-07:00
+updated: 2025-01-22T13:33
+modified: 2025-01-22T13:33:13-07:00
 ---
 # assistive tool 4 learning and research acceleration
 
