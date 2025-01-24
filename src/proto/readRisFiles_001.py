@@ -36,9 +36,9 @@ print(".")
 print(".")
 
 # --- Non-native python libraries in this source tree
-from at4lara.lib.loggers import CyLogger
-from at4lara.lib.loggers import LogPriority as lp
-from at4lara.lib.loggers import LogPriority as logPriority
+from at4lara.helpers.loggers import CyLogger
+from at4lara.helpers.loggers import LogPriority as lp
+from at4lara.helpers.loggers import LogPriority as logPriority
 
 
 class RisStuff():

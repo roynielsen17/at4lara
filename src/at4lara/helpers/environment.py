@@ -13,7 +13,7 @@ import time
 import traceback
 
 try:
-    from at4lara.lib.localize import VERSION
+    from at4lara.helpers.localize import VERSION
 except ImportError or AssertionError:
     VERSION = '0.0.1'
 

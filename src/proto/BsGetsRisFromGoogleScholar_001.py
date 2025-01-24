@@ -9,9 +9,9 @@ import unittest
 
 sys.path.append("..")
 
-from  at4lara.lib.singleton import Singleton 
-from  at4lara.lib.loggers import CyLogger
-from  at4lara.lib.loggers import LogPriority
+from  at4lara.helpers.singleton import Singleton 
+from  at4lara.helpers.loggers import CyLogger
+from  at4lara.helpers.loggers import LogPriority
 
 from  at4lara.models.refs import RisDataModel
 
