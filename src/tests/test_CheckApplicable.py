@@ -17,11 +17,11 @@ appendDir = "/".join(os.path.abspath(os.path.dirname(__file__)).split('/')[:-1])
 sys.path.append(appendDir)
 
 #--- non-native python libraries in this source tree
-from at4lara.lib.loggers import CyLogger
-from at4lara.lib.loggers import LogPriority as lp
-from at4lara.lib.run_commands import RunWith
-from at4lara.lib.environment import Environment
-from at4lara.lib.CheckApplicable import CheckApplicable
+from at4lara.helpers.loggers import CyLogger
+from at4lara.helpers.loggers import LogPriority as lp
+from at4lara.helpers.run_commands import RunWith
+from at4lara.helpers.environment import Environment
+from at4lara.helpers.CheckApplicable import CheckApplicable
 
 LOGGER = CyLogger()
 #LOGGER.setInitialLoggingLevel(30)

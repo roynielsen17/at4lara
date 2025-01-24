@@ -23,16 +23,16 @@ appendDir = "/".join(os.path.abspath(os.path.dirname(__file__)).split('/')[:-1])
 sys.path.append(appendDir)
 
 # --- Non-native python libraries in this source tree
-from at4lara.lib.loggers import CyLogger
-from at4lara.lib.loggers import LogPriority as lp
-from at4lara.lib.getLibc import getLibc
+from at4lara.helpers.loggers import CyLogger
+from at4lara.helpers.loggers import LogPriority as lp
+from at4lara.helpers.getLibc import getLibc
 
 if sys.platform.startswith("darwin"):
-    from at4lara.lib.getLibc.macGetLibc import getLibc
+    from at4lara.helpers.getLibc.macGetLibc import getLibc
 elif sys.platform.startswith("linux"):
-    from at4lara.lib.getLibc.linuxGetLibc import getLibc
+    from at4lara.helpers.getLibc.linuxGetLibc import getLibc
 elif sys.platform.startswith("win32"):
-    from at4lara.lib.getLibc.winGetLibc import getLibc
+    from at4lara.helpers.getLibc.winGetLibc import getLibc
 else:
     raise Exception("Damn it Jim!!! What OS is this???")
 

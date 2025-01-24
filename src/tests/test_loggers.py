@@ -16,10 +16,10 @@ from datetime import datetime
 sys.path.append("..")
 
 # --- Non-native python libraries in this source tree
-from at4lara.lib.environment import Environment
-from at4lara.lib.loggers import CyLogger
-from at4lara.lib.loggers import LogPriority
-from at4lara.lib.run_commands import RunWith
+from at4lara.helpers.environment import Environment
+from at4lara.helpers.loggers import CyLogger
+from at4lara.helpers.loggers import LogPriority
+from at4lara.helpers.run_commands import RunWith
 
 
 class test_loggers(unittest.TestCase):

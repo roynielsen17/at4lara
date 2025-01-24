@@ -12,7 +12,7 @@ import unittest
 sys.path.append("..")
 
 #--- non-native python libraries in this source tree
-from tests.lib.genericTestUtilities import GenericTestUtilities
+from tests.helpers.genericTestUtilities import GenericTestUtilities
 
 
 ###############################################################################
