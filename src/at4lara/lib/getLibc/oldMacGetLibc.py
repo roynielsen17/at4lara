@@ -7,7 +7,6 @@ import os
 import sys
 
 # --- non-native python libraries in this source tree
-from . PlatformFoundErrors import Win32PlatformFoundError
 
 class LibcNotAvailableError(BaseException):
     """
@@ -15,15 +14,6 @@ class LibcNotAvailableError(BaseException):
     """
     def __init__(self, *args, **kwargs):
         BaseException.__init__(self, *args, **kwargs)
-
-try:
-    if sys.platform.strip() == "win32":
-        raise Win32PlatformFoundError("Libc not available - You are on a Windows Platform")
-    else:
-        import ctypes
-
-except Win32PlatformFoundError as err:
-    raise err
 
 
 ##############################################################################
@@ -40,29 +30,10 @@ def getLibc( ):
     """
     # libc = True
 
-    if sys.platform is "win32":
-        return(0)
-    else:
-        import ctypes
+    import ctypes
 
-
-    #####
-    # For Mac
-    try:
-        libc = ctypes.CDLL("/usr/lib/libc.dylib")
-        # libc = ctypes.CDLL("libc.dylib")
-    except OSError:
-        #####
-        # For Linux
-        possible_paths = ["/lib/x86_64-linux-gnu/libc.so.6",
-                          "/lib/i386-linux-gnu/libc.so.6",
-                          "/usr/lib64/libc.so.6",
-                          "/usr/lib/libc.so.6",
-                          "/lib64/libc.so.6",
-                          "/lib/libc.so.6"]
-        for path in possible_paths:
-
-                break
+    libc = ctypes.CDLL("/usr/lib/libc.dylib")
+    # libc = ctypes.CDLL("libc.dylib")
 
     try:
         if libc:

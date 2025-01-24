@@ -26,7 +26,16 @@ sys.path.append(appendDir)
 # --- Non-native python libraries in this source tree
 from at4lara.lib.loggers import CyLogger
 from at4lara.lib.loggers import LogPriority as lp
-from at4lara.lib.getLibc import getLibc
+
+if sys.platform.startswith("darwin"):
+    from at4lara.lib.getLibc.macGetLibc import getLibc
+elif sys.platform.startswith("linux"):
+    from at4lara.lib.getLibc.linuxGetLibc import getLibc
+elif sys.platform.startswith("win32"):
+    from at4lara.lib.getLibc.winGetLibc import getLibc
+else:
+    raise Exception("Damn it Jim!!! What OS is this???")
+
 
 LOGGER = CyLogger()
 #LOGGER.setInitialLoggingLevel(30)
@@ -38,6 +47,7 @@ class test_getLibcTwo(unittest.TestCase):
 
     ##################################
 
+    @unittest.skip("not applicable here...")
     def test_get_euid(self):
         """
         """

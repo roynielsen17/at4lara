@@ -7,7 +7,6 @@ import os
 import sys
 
 # --- non-native python libraries in this source tree
-from . PlatformFoundErrors import Win32PlatformFoundError
 
 class LibcNotAvailableError(BaseException):
     """
@@ -15,15 +14,6 @@ class LibcNotAvailableError(BaseException):
     """
     def __init__(self, *args, **kwargs):
         BaseException.__init__(self, *args, **kwargs)
-
-try:
-    if sys.platform.strip() == "win32":
-        raise Win32PlatformFoundError("Libc not available - You are on a Windows Platform")
-    else:
-        import ctypes
-
-except Win32PlatformFoundError as err:
-    raise err
 
 
 ##############################################################################

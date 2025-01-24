@@ -6,23 +6,20 @@ Testing logging functionality via CyLogger
 """
 # --- Native python libraries
 import unittest
+import time
 import sys
 import os
+import traceback
+import tracemalloc
+from datetime import datetime
 
-#####
-# Include the parent project directory in the PYTHONPATH
-appendDir = "/".join(os.path.abspath(os.path.dirname(__file__)).split('/')[:-1])
-sys.path.append(appendDir)
+sys.path.append("..")
 
 # --- Non-native python libraries in this source tree
+from at4lara.lib.environment import Environment
 from at4lara.lib.loggers import CyLogger
 from at4lara.lib.loggers import LogPriority
-
-#####
-# Set up logging
-logger = CyLogger(debug_mode=True)
-logger.initializeLogs()
-priority = LogPriority()
+from at4lara.lib.run_commands import RunWith
 
 
 class test_loggers(unittest.TestCase):
@@ -31,36 +28,72 @@ class test_loggers(unittest.TestCase):
     for it's logdispatcher.
     """
 
+    metaVars = {'setupDone': None,
+                'setupCount': 0}
+    logger = CyLogger(level=10)
+
+    def setUp(self):
+        """
+        Runs once before any tests start
+        """
+        self.metaVars['setupCount'] = self.metaVars['setupCount'] + 1
+        self.priority = LogPriority
+
+        if self.metaVars['setupDone']:
+            return
+        #####
+        # setUpClass functionality here.
+        self.metaVars['setupDone'] = True
+        self.logger.initializeLogs()
+
+    @classmethod
+    def setUpClass(self):
+        """
+        """
+        #####
+        # Set up logging
+        self.logger = CyLogger(debug_mode=True)
+        self.logger.initializeLogs()
+        self.rw = RunWith(self.logger)
+        #####
+        # Start timer in miliseconds
+        self.test_start_time = datetime.now()
+
+    @classmethod
+    def tearDownClass(self):
+        """
+        """
+        pass
+
     def testLogCritical(self):
         try:
-            logger.log(priority.CRITICAL, "Critical level message")
+            self.logger.log(self.priority.CRITICAL, "Critical level message")
         except:
             self.fail("Failed to write CRITICAL to log file")
 
     def testLogError(self):
         try:
-            logger.log(priority.ERROR, "Error level message")
+            self.logger.log(self.priority.ERROR, "Error level message")
         except:
             self.fail("Failed to write ERROR to log file")
 
     def testLogWarning(self):
         try:
-            logger.log(priority.WARNING, "Warning level message")
+            self.logger.log(self.priority.WARNING, "Warning level message")
         except:
             self.fail("Failed to write WARNING to log file")
 
     def testLogInfo(self):
         try:
-            logger.log(priority.INFO, "Info level message")
+            self.logger.log(self.priority.INFO, "Info level message")
         except:
             self.fail("Failed to write INFO to log file")
 
     def testLogDebug(self):
         try:
-            logger.log(priority.DEBUG, "Debug level message")
+            self.logger.log(self.priority.DEBUG, "Debug level message")
         except:
             self.fail("Failed to write DEBUG to log file")
-
 
 ###############################################################################
 
