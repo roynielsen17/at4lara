@@ -16,10 +16,10 @@ from datetime import datetime
 sys.path.append("..")
 
 # --- Non-native python libraries in this source tree
-from program.lib.environment import Environment
-from program.lib.loggers import CyLogger
-from program.lib.loggers import LogPriority
-from program.lib.run_commands import RunWith
+from program.helpers.environment import Environment
+from program.helpers.loggers import CyLogger
+from program.helpers.loggers import LogPriority
+from program.helpers.run_commands import RunWith
 
 
 class test_loggers(unittest.TestCase):

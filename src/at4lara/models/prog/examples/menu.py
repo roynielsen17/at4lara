@@ -3,16 +3,17 @@
 @author: Roy Nielsen
 """
 #--- Native python libraries
+import os
 import sys
 from optparse import OptionParser, SUPPRESS_HELP
 
 sys.path.append("../")
 #--- non-native python libraries in this source tree
 import program
-from program.lib.run_commands import RunWith
-from program.lib.loggers import CyLogger
-from program.lib.loggers import LogPriority as lp
-from program.lib.composite_menu import MenuComposite, MenuItem 
+from program.helpers.run_commands import RunWith
+from program.helpers.loggers import CyLogger
+from program.helpers.loggers import LogPriority as lp
+from program.helpers.composite_menu import MenuComposite, MenuItem 
 """
 parser = OptionParser(usage="\n\n%prog [options]\n\n", version="0.7.2")
 

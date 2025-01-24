@@ -14,8 +14,8 @@ from optparse import OptionParser, SUPPRESS_HELP, OptionValueError, Option
 
 appendDir = "/".join(os.path.abspath(os.path.dirname(__file__)).split('/')[:-2])
 
-from at4lara.lib.loggers import CyLogger
-from at4lara.lib.loggers import LogPriority as lp
+from at4lara.helpers.loggers import CyLogger
+from at4lara.helpers.loggers import LogPriority as lp
 
 ###############################################################################
 # Exception setup

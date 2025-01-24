@@ -26,8 +26,8 @@ import traceback
 import logging
 import logging.handlers
 
-from at4lara.lib.singleton import Singleton
-from at4lara.config import DEFAULT_LOG_LEVEL
+from program.helpers.singleton import Singleton
+from program.config import DEFAULT_LOG_LEVEL
 
 #from logging.handlers import RotatingFileHandler
 #sys.path.append("..")

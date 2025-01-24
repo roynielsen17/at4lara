@@ -14,8 +14,8 @@ from optparse import OptionParser, SUPPRESS_HELP, OptionValueError, Option
 
 appendDir = "/".join(os.path.abspath(os.path.dirname(__file__)).split('/')[:-2])
 
-from program.lib.loggers import CyLogger
-from program.lib.loggers import LogPriority as lp
+from program.helpers.loggers import CyLogger
+from program.helpers.loggers import LogPriority as lp
 
 ###############################################################################
 # Exception setup

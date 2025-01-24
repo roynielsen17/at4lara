@@ -19,10 +19,10 @@ import subprocess
 from subprocess import Popen, PIPE
 from subprocess import SubprocessError as SubprocessError
 
-from at4lara.lib.loggers import CyLogger
-from at4lara.lib.loggers import LogPriority as lp
-from at4lara.lib.loggers import MockLogger
-# from at4lara.lib.getLibc import getLibc
+from at4lara.helpers.loggers import CyLogger
+from at4lara.helpers.loggers import LogPriority as lp
+from at4lara.helpers.loggers import MockLogger
+# from at4lara.helpers.getLibc import getLibc
 
 
 class OSNotValidForRunWith(BaseException):

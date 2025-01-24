@@ -6,15 +6,20 @@ be used to create a basic menu.
 """
 
 # system libraries
+import os
 import re
 import sys
 import tty
 import termios
 
-sys.path.append("..")
-from ..lib.loggers import CyLogger
-from ..lib.loggers import LogPriority as lp
-from ..lib.run_commands import RunWith, runMyThreadCommand
+#####
+# Include the parent project directory in the PYTHONPATH
+appendDir = "/".join(os.path.abspath(os.path.dirname(__file__)).split('/')[:-2])
+sys.path.append(appendDir)
+
+from at4lara.helpers.loggers import CyLogger
+from at4lara.helpers.loggers import LogPriority as lp
+from at4lara.helpers.run_commands import RunWith, runMyThreadCommand
 
 class NotASaneNameError(Exception):
     """

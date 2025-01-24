@@ -22,7 +22,7 @@ appendDir = "/".join(os.path.abspath(os.path.dirname(__file__)).split('/')[:-1])
 sys.path.append(appendDir)
 
 # --- Non-native python libraries in this source tree
-import program.lib.environment as environment
+import program.helpers.environment as environment
 
 
 class test_environment(unittest.TestCase):

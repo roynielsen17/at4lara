@@ -14,9 +14,9 @@ appendDir = "/".join(os.path.abspath(os.path.dirname(__file__)).split('/')[:-1])
 sys.path.append(appendDir)
 
 #--- non-native python libraries in this source tree
-from program.lib.loggers import CyLogger
-from program.lib.loggers import LogPriority as lp
-from program.lib.run_commands import RunWith, SetCommandTypeError
+from program.helpers.loggers import CyLogger
+from program.helpers.loggers import LogPriority as lp
+from program.helpers.run_commands import RunWith, SetCommandTypeError
 
 
 class test_run_commands(unittest.TestCase):

@@ -1,4 +1,33 @@
-#!/usr/bin/env -S python -u
+#!/usr/bin/env -S python3 -u
+
+###############################################################################
+#                                                                             #
+
+#                                                                             #
+###############################################################################
+
+# ============================================================================#
+#               Filename          $RCSfile: stonix/environment.py,v $
+#               Description       Security Configuration Script
+#               OS                Linux, OS X, Solaris, BSD
+#               Author            Dave Kennel
+#               Last updated by   $Author: $
+#               Notes             Based on CIS Benchmarks, NSA RHEL
+#                                 Guidelines, NIST and DISA STIG/Checklist
+#               Release           $Revision: 2.0 $
+#               Modified Date     $Date: 2024/01/16 17:00:00 $
+# ============================================================================#
+'''
+Created on Aug 24, 2010
+
+@author: dkennel
+@change: 2014/05/29 - ekkehard j. koch - pep8 and comment updates
+@change: 2017/03/07 - dkennel - added fisma risk level support
+@change: 2017/09/01 - rsn - taking out stonix specifics
+@change: 2021/09/16 - rsn - adding traceback.format_exc calls before raising exceptions
+@change: 2021/09/26 - rsn - changing file open statements to "with open" methodology, for better python 3 compatibility
+@change: 2021/09/26 - rsn - changing subprocess usage to calling run_commands.RunWith
+'''
 
 #--- Native python libraries
 import os
@@ -12,8 +41,11 @@ import pwd
 import time
 import traceback
 
+# sys.path.append("../../..")
+from program.config import DEFAULT_LOG_LEVEL, LogPriority 
+
 try:
-    from at4lara.lib.localize import VERSION
+    from program.helpers.localize import VERSION
 except ImportError or AssertionError:
     VERSION = '0.0.1'
 
@@ -21,7 +53,7 @@ except ImportError or AssertionError:
 # FISMACAT must be one of ['high', 'medium', 'low']
 
 try:
-    from randisk.lib.localize import FISMACAT
+    from program.helpers.localize import FISMACAT
 except ImportError or AssertionError:
     FISMACAT = 'low'
 
@@ -34,8 +66,14 @@ if os.geteuid() == 0:
 else:
     DMI = False
 
+#####
+# Include the parent project directory in the PYTHONPATH
+appendDir = "/".join(os.path.abspath(os.path.dirname(__file__)).split('/')[:-2])
+sys.path.append(appendDir)
+
 # third party libraries
-from at4lara.lib.run_commands import RunWith as RunWith
+from program.helpers.run_commands import RunWith as RunWith
+
 
 class Environment(object):
     """
@@ -122,9 +160,11 @@ class Environment(object):
         except OSError:
             print(str(__name__) + ":Unable to determine systemtype. Required utility 'ps' does not exist on this system")
 
-        if self.systemtype not in validtypes:
+
+
+        if self.systemtype not in validtypes and DEFAULT_LOG_LEVEL >= LogPriority["VERBOSE"]:
             print(str(__name__) + ":This system is based on an unknown architecture")
-        else:
+        elif DEFAULT_LOG_LEVEL >= LogPriority["VERBOSE"]:
             print(str(__name__) + ":Determined that this system is based on " + str(self.systemtype) + " architecture")
 
     def getsystemtype(self):
@@ -390,19 +430,19 @@ class Environment(object):
 
         # Breen Malmberg added support for os-release file
         # method of getting version information
-        elif os.path.exists('/etc/os-release'):
+        elif os.path.isfile('/etc/os-release'):
             with open('/etc/os-release', 'r') as relfile:
                 contentlines = relfile.readlines()
-            for line in contentlines:
-                if re.search('VERSION\=', line, re.IGNORECASE):
-                    sline = line[+8:].split()
-                    sline[0] = sline[0].replace('"', '')
-                    self.osversion = sline[0]
-                elif re.search('NAME\=', line, re.IGNORECASE):
-                    sline = line[+5:].split()
-                    sline[0] = sline[0].replace('"', '')
-                    self.operatingsystem = sline[0]
-            self.osreportstring = self.operatingsystem +  ' ' + self.osversion
+                for line in contentlines:
+                    if re.search(r'VERSION\=', line, re.IGNORECASE):
+                        sline = line[+8:].split()
+                        sline[0] = sline[0].replace('"', '')
+                        self.osversion = sline[0]
+                    elif re.search(r'NAME\=', line, re.IGNORECASE):
+                        sline = line[+5:].split()
+                        sline[0] = sline[0].replace('"', '')
+                        self.operatingsystem = sline[0]
+                self.osreportstring = self.operatingsystem +  ' ' + self.osversion
 
         elif os.path.exists('/usr/bin/sw_vers'):
             proc1 = subprocess.Popen('/usr/bin/sw_vers -productName',
@@ -424,6 +464,18 @@ class Environment(object):
             build = proc3.stdout.readline()
             build = build.strip()
             opsys = str(description) + ' ' + str(release) + ' ' + str(build)
+            self.osreportstring = opsys
+
+        elif re.match(r'win32$', sys.plaform()):
+            try:
+                platform_data = platform.system()
+                description = platform_data[0]
+                release = platform_data[2]
+                build = platform_data[3]
+                opsys = str(description).strip() + ' ' + str(release) + ' ' + str(build) 
+            except Exception as err:
+                print(traceback.format_exc())
+                raise()
             self.osreportstring = opsys
 
     def getosmajorver(self):
@@ -573,7 +625,7 @@ class Environment(object):
             except OSError:
                 return ipaddr
             for line in routedata:
-                if re.search('^default|^0.0.0.0|^\*', line):
+                if re.search(r'^default|^0.0.0.0|^\*', line):
                     line = line.split()
                     try:
                         gateway = line[1]
@@ -1126,3 +1178,12 @@ class Environment(object):
             self.systemfismacat = 'high'
         elif self.systemfismacat == 'low' and category == 'high':
             self.systemfismacat = category
+
+if __name__ == "__main__":
+
+    env = Environment()
+
+    myos = env.discoveros()
+
+    print(env.osreportstring)
+

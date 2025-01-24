@@ -14,9 +14,9 @@ appendDir = "/".join(os.path.abspath(os.path.dirname(__file__)).split('/')[:-3])
 sys.path.append(appendDir)
 
 # --- Non-native python libraries in this source tree
-from at4lara.lib.loggers import CyLogger
-from at4lara.lib.loggers import LogPriority as lp
-from at4lara.lib.loggers import LogPriority as logPriority
+from at4lara.helpers.loggers import CyLogger
+from at4lara.helpers.loggers import LogPriority as lp
+from at4lara.helpers.loggers import LogPriority as logPriority
 
 
 class ReadRisData():

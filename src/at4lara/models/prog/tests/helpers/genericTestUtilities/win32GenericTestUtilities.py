@@ -21,17 +21,17 @@ from datetime import datetime
 #--- non-native python libraries in this source tree
 
 if sys.platform.startswith("darwin"):
-    from ramdisk.lib.getLibc.macGetLibc import getLibc
+    from program.helpers.getLibc.macGetLibc import getLibc
 elif sys.platform.startswith("linux"):
-    from ramdisk.lib.getLibc.linuxGetLibc import getLibc
+    from program.helpers.getLibc.linuxGetLibc import getLibc
 elif sys.platform.startswith("win32"):
-    from ramdisk.lib.getLibc.winGetLibc import getLibc
+    from program.helpers.getLibc.winGetLibc import getLibc
 else:
     raise Exception("Damn it Jim!!! What OS is this???")
 
-from ramdisk.lib.loggers import CyLogger
-from ramdisk.lib.loggers import LogPriority as lp
-from ramdisk.lib.run_commands import RunWith as rw
+from program.helpers.loggers import CyLogger
+from program.helpers.loggers import LogPriority as lp
+from program.helpers.run_commands import RunWith as rw
 
 class LibcNotAvailableError(BaseException):
     """
