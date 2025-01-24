@@ -1038,14 +1038,10 @@ referenced
 research
 relationship
 reduction
-read
 ris
 related
 remote
-reaching
-reach
 right
-reading
 run
 reference
 release
@@ -1055,7 +1051,6 @@ reproducible
 reproducibility
 royalsocietypublishing
 rsta
-reached
 range
 released
 ramdisk
@@ -4658,11 +4653,8 @@ Research
 Review
 Reno
 Reviews
-README
-Read
 REST
 RabbitMQ
-Real
 Range
 Reports
 Request

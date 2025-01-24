@@ -109,7 +109,7 @@ class GenericTestUtilities(object):
 
         @author: Roy Nielsen
         """
-        if re.match("^\s*$", str(fname)):
+        if re.match(r"^\s*$", str(fname)):
             self.logger.log(lp.WARNING, "Cannot touch a file without a filename....")
         else:
             try:
